@@ -1,0 +1,1963 @@
+********************************************************************************
+MEME - Motif discovery tool
+********************************************************************************
+MEME version 4.11.3 (Release date: Tue Feb 21 16:20:52 2017 -0800)
+
+For further information on how to interpret these results or to get
+a copy of the MEME software please access http://meme-suite.org .
+
+This file may be used as input to the MAST algorithm for searching
+sequence databases for matches to groups of motifs.  MAST is available
+for interactive use and downloading at http://meme-suite.org .
+********************************************************************************
+
+
+********************************************************************************
+REFERENCE
+********************************************************************************
+If you use this program in your research, please cite:
+
+Timothy L. Bailey and Charles Elkan,
+"Fitting a mixture model by expectation maximization to discover
+motifs in biopolymers", Proceedings of the Second International
+Conference on Intelligent Systems for Molecular Biology, pp. 28-36,
+AAAI Press, Menlo Park, California, 1994.
+********************************************************************************
+
+
+********************************************************************************
+TRAINING SET
+********************************************************************************
+DATAFILE= /Users/Javaid/Downloads/chexmix-master/HimD_ctrl_REP_chexmix/intermediate-results/seq13390569819951311113.fa
+ALPHABET= ACGT
+Sequence name            Weight Length  Sequence name            Weight Length  
+-------------            ------ ------  -------------            ------ ------  
+Seq1                     1.0000     61  Seq2                     1.0000     61  
+Seq3                     1.0000     61  Seq4                     1.0000     61  
+Seq5                     1.0000     61  Seq6                     1.0000     61  
+Seq7                     1.0000     61  Seq8                     1.0000     61  
+Seq9                     1.0000     61  Seq10                    1.0000     61  
+Seq11                    1.0000     61  Seq12                    1.0000     61  
+Seq13                    1.0000     61  Seq14                    1.0000     61  
+Seq15                    1.0000     61  Seq16                    1.0000     61  
+Seq17                    1.0000     61  Seq18                    1.0000     61  
+Seq19                    1.0000     61  Seq20                    1.0000     61  
+Seq21                    1.0000     61  Seq22                    1.0000     61  
+Seq23                    1.0000     61  Seq24                    1.0000     61  
+Seq25                    1.0000     61  Seq26                    1.0000     61  
+Seq27                    1.0000     61  Seq28                    1.0000     61  
+Seq29                    1.0000     61  Seq30                    1.0000     61  
+Seq31                    1.0000     61  Seq32                    1.0000     61  
+Seq33                    1.0000     61  Seq34                    1.0000     61  
+Seq35                    1.0000     61  Seq36                    1.0000     61  
+Seq37                    1.0000     61  Seq38                    1.0000     61  
+Seq39                    1.0000     61  Seq40                    1.0000     61  
+Seq41                    1.0000     61  Seq42                    1.0000     61  
+Seq43                    1.0000     61  Seq44                    1.0000     61  
+Seq45                    1.0000     61  Seq46                    1.0000     61  
+Seq47                    1.0000     61  Seq48                    1.0000     61  
+Seq49                    1.0000     61  Seq50                    1.0000     61  
+Seq51                    1.0000     61  Seq52                    1.0000     61  
+Seq53                    1.0000     61  Seq54                    1.0000     61  
+Seq55                    1.0000     61  Seq56                    1.0000     61  
+Seq57                    1.0000     61  Seq58                    1.0000     61  
+Seq59                    1.0000     61  Seq60                    1.0000     61  
+Seq61                    1.0000     61  Seq62                    1.0000     61  
+Seq63                    1.0000     61  Seq64                    1.0000     61  
+Seq65                    1.0000     61  Seq66                    1.0000     61  
+Seq67                    1.0000     61  Seq68                    1.0000     61  
+Seq69                    1.0000     61  Seq70                    1.0000     61  
+Seq71                    1.0000     61  Seq72                    1.0000     61  
+Seq73                    1.0000     61  Seq74                    1.0000     61  
+Seq75                    1.0000     61  Seq76                    1.0000     61  
+Seq77                    1.0000     61  Seq78                    1.0000     61  
+Seq79                    1.0000     61  Seq80                    1.0000     61  
+Seq81                    1.0000     61  Seq82                    1.0000     61  
+Seq83                    1.0000     61  Seq84                    1.0000     61  
+Seq85                    1.0000     61  Seq86                    1.0000     61  
+Seq87                    1.0000     61  Seq88                    1.0000     61  
+Seq89                    1.0000     61  Seq90                    1.0000     61  
+Seq91                    1.0000     61  Seq92                    1.0000     61  
+Seq93                    1.0000     61  Seq94                    1.0000     61  
+Seq95                    1.0000     61  Seq96                    1.0000     61  
+Seq97                    1.0000     61  Seq98                    1.0000     61  
+Seq99                    1.0000     61  Seq100                   1.0000     61  
+Seq101                   1.0000     61  Seq102                   1.0000     61  
+Seq103                   1.0000     61  Seq104                   1.0000     61  
+Seq105                   1.0000     61  Seq106                   1.0000     61  
+Seq107                   1.0000     61  Seq108                   1.0000     61  
+Seq109                   1.0000     61  Seq110                   1.0000     61  
+Seq111                   1.0000     61  Seq112                   1.0000     61  
+Seq113                   1.0000     61  Seq114                   1.0000     61  
+Seq115                   1.0000     61  Seq116                   1.0000     61  
+Seq117                   1.0000     61  Seq118                   1.0000     61  
+Seq119                   1.0000     61  Seq120                   1.0000     61  
+Seq121                   1.0000     61  Seq122                   1.0000     61  
+Seq123                   1.0000     61  Seq124                   1.0000     61  
+Seq125                   1.0000     61  Seq126                   1.0000     61  
+Seq127                   1.0000     61  Seq128                   1.0000     61  
+Seq129                   1.0000     61  Seq130                   1.0000     61  
+Seq131                   1.0000     61  Seq132                   1.0000     61  
+Seq133                   1.0000     61  Seq134                   1.0000     61  
+Seq135                   1.0000     61  Seq136                   1.0000     61  
+Seq137                   1.0000     61  Seq138                   1.0000     61  
+Seq139                   1.0000     61  Seq140                   1.0000     61  
+Seq141                   1.0000     61  Seq142                   1.0000     61  
+Seq143                   1.0000     61  Seq144                   1.0000     61  
+Seq145                   1.0000     61  Seq146                   1.0000     61  
+Seq147                   1.0000     61  Seq148                   1.0000     61  
+Seq149                   1.0000     61  Seq150                   1.0000     61  
+Seq151                   1.0000     61  Seq152                   1.0000     61  
+Seq153                   1.0000     61  Seq154                   1.0000     61  
+Seq155                   1.0000     61  Seq156                   1.0000     61  
+Seq157                   1.0000     61  Seq158                   1.0000     61  
+Seq159                   1.0000     61  Seq160                   1.0000     61  
+Seq161                   1.0000     61  Seq162                   1.0000     61  
+Seq163                   1.0000     61  Seq164                   1.0000     61  
+Seq165                   1.0000     61  Seq166                   1.0000     61  
+Seq167                   1.0000     61  Seq168                   1.0000     61  
+Seq169                   1.0000     61  Seq170                   1.0000     61  
+Seq171                   1.0000     61  Seq172                   1.0000     61  
+Seq173                   1.0000     61  Seq174                   1.0000     61  
+Seq175                   1.0000     61  Seq176                   1.0000     61  
+Seq177                   1.0000     61  Seq178                   1.0000     61  
+Seq179                   1.0000     61  Seq180                   1.0000     61  
+Seq181                   1.0000     61  Seq182                   1.0000     61  
+Seq183                   1.0000     61  Seq184                   1.0000     61  
+Seq185                   1.0000     61  Seq186                   1.0000     61  
+Seq187                   1.0000     61  Seq188                   1.0000     61  
+Seq189                   1.0000     61  Seq190                   1.0000     61  
+Seq191                   1.0000     61  Seq192                   1.0000     61  
+Seq193                   1.0000     61  Seq194                   1.0000     61  
+Seq195                   1.0000     61  Seq196                   1.0000     61  
+Seq197                   1.0000     61  Seq198                   1.0000     61  
+Seq199                   1.0000     61  Seq200                   1.0000     61  
+Seq201                   1.0000     61  Seq202                   1.0000     61  
+Seq203                   1.0000     61  Seq204                   1.0000     61  
+Seq205                   1.0000     61  Seq206                   1.0000     61  
+Seq207                   1.0000     61  Seq208                   1.0000     61  
+Seq209                   1.0000     61  Seq210                   1.0000     61  
+Seq211                   1.0000     61  Seq212                   1.0000     61  
+Seq213                   1.0000     61  Seq214                   1.0000     61  
+Seq215                   1.0000     61  Seq216                   1.0000     61  
+Seq217                   1.0000     61  Seq218                   1.0000     61  
+Seq219                   1.0000     61  Seq220                   1.0000     61  
+Seq221                   1.0000     61  Seq222                   1.0000     61  
+Seq223                   1.0000     61  Seq224                   1.0000     61  
+Seq225                   1.0000     61  Seq226                   1.0000     61  
+Seq227                   1.0000     61  Seq228                   1.0000     61  
+Seq229                   1.0000     61  Seq230                   1.0000     61  
+Seq231                   1.0000     61  Seq232                   1.0000     61  
+Seq233                   1.0000     61  Seq234                   1.0000     61  
+Seq235                   1.0000     61  Seq236                   1.0000     61  
+Seq237                   1.0000     61  Seq238                   1.0000     61  
+Seq239                   1.0000     61  Seq240                   1.0000     61  
+Seq241                   1.0000     61  Seq242                   1.0000     61  
+Seq243                   1.0000     61  Seq244                   1.0000     61  
+Seq245                   1.0000     61  Seq246                   1.0000     61  
+Seq247                   1.0000     61  Seq248                   1.0000     61  
+Seq249                   1.0000     61  Seq250                   1.0000     61  
+Seq251                   1.0000     61  Seq252                   1.0000     61  
+Seq253                   1.0000     61  Seq254                   1.0000     61  
+Seq255                   1.0000     61  Seq256                   1.0000     61  
+Seq257                   1.0000     61  Seq258                   1.0000     61  
+Seq259                   1.0000     61  Seq260                   1.0000     61  
+Seq261                   1.0000     61  Seq262                   1.0000     61  
+Seq263                   1.0000     61  Seq264                   1.0000     61  
+Seq265                   1.0000     61  Seq266                   1.0000     61  
+Seq267                   1.0000     61  Seq268                   1.0000     61  
+Seq269                   1.0000     61  Seq270                   1.0000     61  
+Seq271                   1.0000     61  Seq272                   1.0000     61  
+Seq273                   1.0000     61  Seq274                   1.0000     61  
+Seq275                   1.0000     61  Seq276                   1.0000     61  
+Seq277                   1.0000     61  Seq278                   1.0000     61  
+Seq279                   1.0000     61  Seq280                   1.0000     61  
+Seq281                   1.0000     61  Seq282                   1.0000     61  
+Seq283                   1.0000     61  Seq284                   1.0000     61  
+Seq285                   1.0000     61  Seq286                   1.0000     61  
+Seq287                   1.0000     61  Seq288                   1.0000     61  
+Seq289                   1.0000     61  Seq290                   1.0000     61  
+Seq291                   1.0000     61  Seq292                   1.0000     61  
+Seq293                   1.0000     61  Seq294                   1.0000     61  
+Seq295                   1.0000     61  Seq296                   1.0000     61  
+Seq297                   1.0000     61  Seq298                   1.0000     61  
+Seq299                   1.0000     61  Seq300                   1.0000     61  
+Seq301                   1.0000     61  Seq302                   1.0000     61  
+Seq303                   1.0000     61  Seq304                   1.0000     61  
+Seq305                   1.0000     61  Seq306                   1.0000     61  
+Seq307                   1.0000     61  Seq308                   1.0000     61  
+Seq309                   1.0000     61  Seq310                   1.0000     61  
+Seq311                   1.0000     61  Seq312                   1.0000     61  
+Seq313                   1.0000     61  Seq314                   1.0000     61  
+Seq315                   1.0000     61  Seq316                   1.0000     61  
+Seq317                   1.0000     61  Seq318                   1.0000     61  
+Seq319                   1.0000     61  Seq320                   1.0000     61  
+Seq321                   1.0000     61  Seq322                   1.0000     61  
+Seq323                   1.0000     61  Seq324                   1.0000     61  
+Seq325                   1.0000     61  Seq326                   1.0000     61  
+Seq327                   1.0000     61  Seq328                   1.0000     61  
+Seq329                   1.0000     61  Seq330                   1.0000     61  
+Seq331                   1.0000     61  Seq332                   1.0000     61  
+Seq333                   1.0000     61  Seq334                   1.0000     61  
+Seq335                   1.0000     61  Seq336                   1.0000     61  
+Seq337                   1.0000     61  Seq338                   1.0000     61  
+Seq339                   1.0000     61  Seq340                   1.0000     61  
+Seq341                   1.0000     61  Seq342                   1.0000     61  
+Seq343                   1.0000     61  Seq344                   1.0000     61  
+Seq345                   1.0000     61  Seq346                   1.0000     61  
+Seq347                   1.0000     61  Seq348                   1.0000     61  
+Seq349                   1.0000     61  Seq350                   1.0000     61  
+Seq351                   1.0000     61  Seq352                   1.0000     61  
+Seq353                   1.0000     61  Seq354                   1.0000     61  
+Seq355                   1.0000     61  Seq356                   1.0000     61  
+Seq357                   1.0000     61  Seq358                   1.0000     61  
+Seq359                   1.0000     61  Seq360                   1.0000     61  
+Seq361                   1.0000     61  Seq362                   1.0000     61  
+Seq363                   1.0000     61  Seq364                   1.0000     61  
+Seq365                   1.0000     61  Seq366                   1.0000     61  
+Seq367                   1.0000     61  Seq368                   1.0000     61  
+Seq369                   1.0000     61  Seq370                   1.0000     61  
+Seq371                   1.0000     61  Seq372                   1.0000     61  
+Seq373                   1.0000     61  Seq374                   1.0000     61  
+Seq375                   1.0000     61  Seq376                   1.0000     61  
+Seq377                   1.0000     61  Seq378                   1.0000     61  
+Seq379                   1.0000     61  Seq380                   1.0000     61  
+Seq381                   1.0000     61  Seq382                   1.0000     61  
+Seq383                   1.0000     61  Seq384                   1.0000     61  
+Seq385                   1.0000     61  Seq386                   1.0000     61  
+Seq387                   1.0000     61  Seq388                   1.0000     61  
+Seq389                   1.0000     61  Seq390                   1.0000     61  
+Seq391                   1.0000     61  Seq392                   1.0000     61  
+Seq393                   1.0000     61  Seq394                   1.0000     61  
+Seq395                   1.0000     61  Seq396                   1.0000     61  
+Seq397                   1.0000     61  Seq398                   1.0000     61  
+Seq399                   1.0000     61  Seq400                   1.0000     61  
+Seq401                   1.0000     61  Seq402                   1.0000     61  
+Seq403                   1.0000     61  Seq404                   1.0000     61  
+Seq405                   1.0000     61  Seq406                   1.0000     61  
+Seq407                   1.0000     61  Seq408                   1.0000     61  
+Seq409                   1.0000     61  Seq410                   1.0000     61  
+Seq411                   1.0000     61  Seq412                   1.0000     61  
+Seq413                   1.0000     61  Seq414                   1.0000     61  
+Seq415                   1.0000     61  Seq416                   1.0000     61  
+Seq417                   1.0000     61  Seq418                   1.0000     61  
+Seq419                   1.0000     61  Seq420                   1.0000     61  
+Seq421                   1.0000     61  Seq422                   1.0000     61  
+Seq423                   1.0000     61  Seq424                   1.0000     61  
+Seq425                   1.0000     61  Seq426                   1.0000     61  
+Seq427                   1.0000     61  Seq428                   1.0000     61  
+Seq429                   1.0000     61  Seq430                   1.0000     61  
+Seq431                   1.0000     61  Seq432                   1.0000     61  
+Seq433                   1.0000     61  Seq434                   1.0000     61  
+Seq435                   1.0000     61  Seq436                   1.0000     61  
+Seq437                   1.0000     61  Seq438                   1.0000     61  
+Seq439                   1.0000     61  Seq440                   1.0000     61  
+Seq441                   1.0000     61  Seq442                   1.0000     61  
+Seq443                   1.0000     61  Seq444                   1.0000     61  
+Seq445                   1.0000     61  Seq446                   1.0000     61  
+Seq447                   1.0000     61  Seq448                   1.0000     61  
+Seq449                   1.0000     61  Seq450                   1.0000     61  
+Seq451                   1.0000     61  Seq452                   1.0000     61  
+Seq453                   1.0000     61  Seq454                   1.0000     61  
+Seq455                   1.0000     61  Seq456                   1.0000     61  
+Seq457                   1.0000     61  Seq458                   1.0000     61  
+Seq459                   1.0000     61  Seq460                   1.0000     61  
+Seq461                   1.0000     61  Seq462                   1.0000     61  
+Seq463                   1.0000     61  Seq464                   1.0000     61  
+Seq465                   1.0000     61  Seq466                   1.0000     61  
+Seq467                   1.0000     61  Seq468                   1.0000     61  
+Seq469                   1.0000     61  Seq470                   1.0000     61  
+Seq471                   1.0000     61  Seq472                   1.0000     61  
+Seq473                   1.0000     61  Seq474                   1.0000     61  
+Seq475                   1.0000     61  Seq476                   1.0000     61  
+Seq477                   1.0000     61  Seq478                   1.0000     61  
+Seq479                   1.0000     61  Seq480                   1.0000     61  
+Seq481                   1.0000     61  Seq482                   1.0000     61  
+Seq483                   1.0000     61  Seq484                   1.0000     61  
+Seq485                   1.0000     61  Seq486                   1.0000     61  
+Seq487                   1.0000     61  Seq488                   1.0000     61  
+Seq489                   1.0000     61  Seq490                   1.0000     61  
+Seq491                   1.0000     61  Seq492                   1.0000     61  
+Seq493                   1.0000     61  Seq494                   1.0000     61  
+Seq495                   1.0000     61  Seq496                   1.0000     61  
+Seq497                   1.0000     61  Seq498                   1.0000     61  
+Seq499                   1.0000     61  Seq500                   1.0000     61  
+Seq501                   1.0000     61  Seq502                   1.0000     61  
+Seq503                   1.0000     61  Seq504                   1.0000     61  
+Seq505                   1.0000     61  Seq506                   1.0000     61  
+Seq507                   1.0000     61  Seq508                   1.0000     61  
+Seq509                   1.0000     61  Seq510                   1.0000     61  
+Seq511                   1.0000     61  Seq512                   1.0000     61  
+Seq513                   1.0000     61  Seq514                   1.0000     61  
+Seq515                   1.0000     61  Seq516                   1.0000     61  
+Seq517                   1.0000     61  Seq518                   1.0000     61  
+Seq519                   1.0000     61  
+********************************************************************************
+
+********************************************************************************
+COMMAND LINE SUMMARY
+********************************************************************************
+This information can also be useful in the event you wish to report a
+problem with the MEME software.
+
+command: meme /Users/Javaid/Downloads/chexmix-master/HimD_ctrl_REP_chexmix/intermediate-results/seq13390569819951311113.fa -dna -mod zoops -revcomp -nostatus -nmotifs 3 -minw 8 -maxw 21 -o /Users/Javaid/Downloads/chexmix-master/HimD_ctrl_REP_chexmix/intermediate-results/meme_motif_SAMPLE_t2_s0_c2 
+
+model:  mod=         zoops    nmotifs=         3    evt=           inf
+object function=  E-value of product of p-values
+width:  minw=            8    maxw=           21
+width:  wg=             11    ws=              1    endgaps=       yes
+nsites: minsites=        2    maxsites=      519    wnsites=       0.8
+theta:  spmap=         uni    spfuzz=        0.5
+global: substring=     yes    branching=      no    wbranch=        no
+em:     prior=   dirichlet    b=            0.01    maxiter=        50
+        distance=    1e-05
+data:   n=           31659    N=             519    shuffle=        -1
+strands: + -
+sample: seed=            0    ctfrac=         -1    maxwords=       -1
+Letter frequencies in dataset:
+A 0.281 C 0.219 G 0.219 T 0.281 
+Background letter frequencies (from dataset with add-one prior applied):
+A 0.281 C 0.219 G 0.219 T 0.281 
+********************************************************************************
+
+
+********************************************************************************
+MOTIF  1 MEME	width =  21  sites =  27  llr = 332  E-value = 8.5e-004
+********************************************************************************
+--------------------------------------------------------------------------------
+	Motif 1 Description
+--------------------------------------------------------------------------------
+Simplified        A  154:::12::74:56577:a7
+pos.-specific     C  613:::2113:112122:9::
+probability       G  14:2:::4:4::12:3::::2
+matrix            T  1:27a9729335713::21:1
+
+         bits    2.2                      
+                 2.0                      
+                 1.8     *              * 
+                 1.5     *   *         ** 
+Relative         1.3     **  *         ** 
+Entropy          1.1     **  *         ** 
+(17.8 bits)      0.9    **** *       *****
+                 0.7 ** **** * * * * *****
+                 0.4 ******* ***** *******
+                 0.2 *********************
+                 0.0 ---------------------
+
+Multilevel           CAATTTTGTGATTAAAAACAA
+consensus             GCG   T CTA  TG T   
+sequence               T      T           
+                                          
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 sites sorted by position p-value
+--------------------------------------------------------------------------------
+Sequence name            Strand  Start   P-value                    Site       
+-------------            ------  ----- ---------            ---------------------
+Seq150                       +     20  4.75e-10 TACATAGAGT CAATTTTGTGAATGTAAACAA TACTGTCTTC
+Seq101                       +     17  2.36e-08 TACTGGCAGG CAAGTTTTTCAATACAAACAA CCATAAGCTC
+Seq346                       -     16  5.91e-08 GTAGCGGAGT TGTTTTTGTGTTTACAAACAA TGGCTCTACA
+Seq121                       -     30  7.56e-08 TCCAGATGAC CATTTTTGTTATTCTCCACAA CGAGTTAGTT
+Seq118                       -     31  7.56e-08 TCCAGATGAC CATTTTTGTTATTCTCCACAA CGAGTTAGTT
+Seq99                        -     29  7.56e-08 TCCAGATGAC CATTTTTGTTATTCTCCACAA CGAGTTAGTT
+Seq173                       -     29  9.62e-08 GCGACTGATG AGATTTTCTGAATGAGAACAA AGAGAAATGT
+Seq392                       -     24  1.36e-07 CGCGTATCTA CAATTGTCTGATTCAGAACAA TATCGACACG
+Seq214                       -     30  1.36e-07 GTCTTAGCCT CGCGTTTGTCTTTTACATCAA TGGCTTTTGA
+Seq11                        +     17  1.36e-07 AGTTAAGTGT CACTTTTTTCATTGAAAAGAA TAAGATATGT
+Seq460                       -     27  1.53e-07 CCCTGGAAAC CGATTTTATGTTTATGCTCAA CCACCATCTG
+Seq64                        +     30  7.16e-07 TTCTTACCCC TGATTTTGTTAACTAAATCAA TAAATGCGTG
+Seq192                       -     24  1.04e-06 AGCGGTCATT CGCGTTTATCTTGAAGAACAT AAGGTCGAGG
+Seq340                       +      8  1.13e-06    AGAAACG CGCTTTATTTACTGAAAACAG GTGACCCGAT
+Seq79                        -     25  1.13e-06 CTGTGACTAC TGTTTTTATCTCGAAAAACAA TCCCTTTACC
+Seq429                       -     25  1.24e-06 TCTTTCCAGG GCATTTTGTGCATAAAAACAG GGCGTCACGC
+Seq383                       -     27  1.24e-06 CAGGTGTACG CGCTTTTATCAACAAAACCAG CCTTTTTCAG
+Seq269                       +     21  1.75e-06 TACAGGCAGC GGATTTTGTCTATCAGGACAG TCAATTAGGC
+Seq455                       -     21  2.25e-06 CTGGTTAGAT CAAGTTAATCAATAAATACAA AAAATGGGAC
+Seq222                       +     41  2.44e-06 CGAACGATCT GACTTTTTTGAAGAAGCTCAG           
+Seq435                       +      3  2.65e-06         AT CATTTTCGTTTATATGATCAT TGGTTTTATG
+Seq115                       +     12  2.65e-06 TTACACAGGT TAAGTTCTTATTTAAAAACAA CAGATAATCG
+Seq251                       +      7  3.93e-06     TGATGT GAAGTATGTGATTGCCAACAA CAACTTGTGG
+Seq24                        +     15  4.92e-06 ATTTGCGAGC CGCTTTCCCGATATAAAACAA CCTCATTGCC
+Seq312                       +     13  5.70e-06 ACCTTGCAAC CCCTTTCTTGACGTAAATCAA CTCGGTTTCA
+Seq293                       +     18  7.07e-06 TCCTGATTAT AAATTTCGCCATTATAAATAA CGCTTTGCTG
+Seq93                        -      5  1.30e-05 TTTGTTTTTT CACATTTCTTATCATGAATAA CGCC      
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 block diagrams
+--------------------------------------------------------------------------------
+SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+Seq150                            4.7e-10  19_[+1]_21
+Seq101                            2.4e-08  16_[+1]_24
+Seq346                            5.9e-08  15_[-1]_25
+Seq121                            7.6e-08  29_[-1]_11
+Seq118                            7.6e-08  30_[-1]_10
+Seq99                             7.6e-08  28_[-1]_12
+Seq173                            9.6e-08  28_[-1]_12
+Seq392                            1.4e-07  23_[-1]_17
+Seq214                            1.4e-07  29_[-1]_11
+Seq11                             1.4e-07  16_[+1]_24
+Seq460                            1.5e-07  26_[-1]_14
+Seq64                             7.2e-07  29_[+1]_11
+Seq192                              1e-06  23_[-1]_17
+Seq340                            1.1e-06  7_[+1]_33
+Seq79                             1.1e-06  24_[-1]_16
+Seq429                            1.2e-06  24_[-1]_16
+Seq383                            1.2e-06  26_[-1]_14
+Seq269                            1.8e-06  20_[+1]_20
+Seq455                            2.3e-06  20_[-1]_20
+Seq222                            2.4e-06  40_[+1]
+Seq435                            2.7e-06  2_[+1]_38
+Seq115                            2.7e-06  11_[+1]_29
+Seq251                            3.9e-06  6_[+1]_34
+Seq24                             4.9e-06  14_[+1]_26
+Seq312                            5.7e-06  12_[+1]_28
+Seq293                            7.1e-06  17_[+1]_23
+Seq93                             1.3e-05  4_[-1]_36
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 in BLOCKS format
+--------------------------------------------------------------------------------
+BL   MOTIF 1 width=21 seqs=27
+Seq150                   (   20) CAATTTTGTGAATGTAAACAA  1 
+Seq101                   (   17) CAAGTTTTTCAATACAAACAA  1 
+Seq346                   (   16) TGTTTTTGTGTTTACAAACAA  1 
+Seq121                   (   30) CATTTTTGTTATTCTCCACAA  1 
+Seq118                   (   31) CATTTTTGTTATTCTCCACAA  1 
+Seq99                    (   29) CATTTTTGTTATTCTCCACAA  1 
+Seq173                   (   29) AGATTTTCTGAATGAGAACAA  1 
+Seq392                   (   24) CAATTGTCTGATTCAGAACAA  1 
+Seq214                   (   30) CGCGTTTGTCTTTTACATCAA  1 
+Seq11                    (   17) CACTTTTTTCATTGAAAAGAA  1 
+Seq460                   (   27) CGATTTTATGTTTATGCTCAA  1 
+Seq64                    (   30) TGATTTTGTTAACTAAATCAA  1 
+Seq192                   (   24) CGCGTTTATCTTGAAGAACAT  1 
+Seq340                   (    8) CGCTTTATTTACTGAAAACAG  1 
+Seq79                    (   25) TGTTTTTATCTCGAAAAACAA  1 
+Seq429                   (   25) GCATTTTGTGCATAAAAACAG  1 
+Seq383                   (   27) CGCTTTTATCAACAAAACCAG  1 
+Seq269                   (   21) GGATTTTGTCTATCAGGACAG  1 
+Seq455                   (   21) CAAGTTAATCAATAAATACAA  1 
+Seq222                   (   41) GACTTTTTTGAAGAAGCTCAG  1 
+Seq435                   (    3) CATTTTCGTTTATATGATCAT  1 
+Seq115                   (   12) TAAGTTCTTATTTAAAAACAA  1 
+Seq251                   (    7) GAAGTATGTGATTGCCAACAA  1 
+Seq24                    (   15) CGCTTTCCCGATATAAAACAA  1 
+Seq312                   (   13) CCCTTTCTTGACGTAAATCAA  1 
+Seq293                   (   18) AAATTTCGCCATTATAAATAA  1 
+Seq93                    (    5) CACATTTCTTATCATGAATAA  1 
+//
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 position-specific scoring matrix
+--------------------------------------------------------------------------------
+log-odds matrix: alength= 4 w= 21 n= 21279 bayes= 10.19 E= 8.5e-004 
+  -192    152    -57    -92 
+    88   -156     89  -1140 
+    66     60  -1140    -34 
+  -292  -1140      2    140 
+ -1140  -1140  -1140    183 
+  -292  -1140   -256    172 
+  -192    -24  -1140    140 
+   -60    -57    102    -34 
+ -1140   -156  -1140    172 
+  -292     60     76    -11 
+   125   -256  -1140      8 
+    40    -98  -1140     88 
+  -292    -98    -57    133 
+    78    -24    -24    -92 
+   108    -98  -1140      8 
+    88    -24     43  -1140 
+   140    -24   -256   -292 
+   140   -256  -1140    -34 
+ -1140    202   -256   -192 
+   183  -1140  -1140  -1140 
+   140  -1140    -24   -192 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 21 nsites= 27 E= 8.5e-004 
+ 0.074074  0.629630  0.148148  0.148148 
+ 0.518519  0.074074  0.407407  0.000000 
+ 0.444444  0.333333  0.000000  0.222222 
+ 0.037037  0.000000  0.222222  0.740741 
+ 0.000000  0.000000  0.000000  1.000000 
+ 0.037037  0.000000  0.037037  0.925926 
+ 0.074074  0.185185  0.000000  0.740741 
+ 0.185185  0.148148  0.444444  0.222222 
+ 0.000000  0.074074  0.000000  0.925926 
+ 0.037037  0.333333  0.370370  0.259259 
+ 0.666667  0.037037  0.000000  0.296296 
+ 0.370370  0.111111  0.000000  0.518519 
+ 0.037037  0.111111  0.148148  0.703704 
+ 0.481481  0.185185  0.185185  0.148148 
+ 0.592593  0.111111  0.000000  0.296296 
+ 0.518519  0.185185  0.296296  0.000000 
+ 0.740741  0.185185  0.037037  0.037037 
+ 0.740741  0.037037  0.000000  0.222222 
+ 0.000000  0.888889  0.037037  0.074074 
+ 1.000000  0.000000  0.000000  0.000000 
+ 0.740741  0.000000  0.185185  0.074074 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 regular expression
+--------------------------------------------------------------------------------
+C[AG][ACT][TG]TTT[GT]T[GCT][AT][TA]TA[AT][AG]A[AT]CAA
+--------------------------------------------------------------------------------
+
+
+
+
+Time 50.44 secs.
+
+********************************************************************************
+
+
+********************************************************************************
+MOTIF  2 MEME	width =  21  sites =  28  llr = 341  E-value = 2.2e-004
+********************************************************************************
+--------------------------------------------------------------------------------
+	Motif 2 Description
+--------------------------------------------------------------------------------
+Simplified        A  584:54513395499968a:4
+pos.-specific     C  31::2622:31:::1:41:35
+probability       G  11:1:1156::3:1:::::81
+matrix            T  1:693:3124:16::11::::
+
+         bits    2.2                      
+                 2.0                      
+                 1.8                      
+                 1.5                   *  
+Relative         1.3    *          **  ** 
+Entropy          1.1    *      *  *** *** 
+(17.6 bits)      0.9   ** *    * **** *** 
+                 0.7  *** *  * * *********
+                 0.4  ***** ** ***********
+                 0.2 *********************
+                 0.0 ---------------------
+
+Multilevel           AATTACAGGTAATAAAAAAGC
+consensus            C A TAT AA GA   C  CA
+sequence                 C    C           
+                                          
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 2 sites sorted by position p-value
+--------------------------------------------------------------------------------
+Sequence name            Strand  Start   P-value                    Site       
+-------------            ------  ----- ---------            ---------------------
+Seq431                       +     40  8.91e-11 TAATGATAGG CAATTCAGGTAATAAAAAAGC C         
+Seq361                       +     39  8.91e-11 TAATGATAGG CAATTCAGGTAATAAAAAAGC CG        
+Seq332                       +     41  8.91e-11 TAATGATAGG CAATTCAGGTAATAAAAAAGC           
+Seq60                        -     23  1.10e-08 CCCGCAGTTA AATTACTCGAAAAAAACAAGA TTTCGTTTCA
+Seq125                       -      8  3.02e-08 ATAAACACTG GATTTCAGGCATAAAAAAAGA CCTCAGT   
+Seq96                        +     19  4.41e-07 TGATTAAATA ATTTAAATGAAATAAAAAAGA CGGACAACTT
+Seq341                       -      5  4.87e-07 AAGTGCATGA CAATAAAAGCAATACACAACC CCAG      
+Seq117                       -     28  5.92e-07 TCACGACCGT AAATACCTTTAATGAACAAGC CTTTAAAGAT
+Seq374                       -      5  8.65e-07 CGGAAACAGA CATTAAAGGGAGTAATAAACA TGAA      
+Seq373                       -     35  8.65e-07     CTGAGT GATTTCTGACTGTAAAAAAGC ATTTAACAGC
+Seq131                       -     15  1.04e-06 TTACTACTCC CCTGAAAAATAATAAAAAAGC GGCAGAATCC
+Seq163                       +     29  1.14e-06 AAAAACCGTG AATTTCCGTTAGAACAAAACA GACGATTGTA
+Seq137                       -     22  1.14e-06 ACCCCGGTAG AAATACTGTTAGTAAATAAGG TGGTAGCTGC
+Seq17                        +     25  1.14e-06 AAATCCAACA ACATTAACGAATTAAACAACC CGTAGGCCGG
+Seq166                       -      8  1.24e-06 ATTTACATAT AATTAGAGGAAGAAAAAATGA CAATATT   
+Seq415                       -     17  1.75e-06 AGATGCGGAG ACTTAAGGTCAAAAAAACAGA AGGGTAAAAA
+Seq350                       -     36  1.75e-06      CTGGT CAATCATCACAGAAAACCAGC CTTTAGATCA
+Seq359                       +     28  2.07e-06 TGTCAAACAT CATTCAGGACAAAAAAATAGC GGCTAATCAT
+Seq508                       +     35  2.25e-06 CCTAAAAGGT TAATTACAGCAATGAAAAAGC ACCTAA    
+Seq304                       -     17  2.65e-06 CTTGTCTTTC GCTGCAACGAAATAAAAAACC TCGGAATCTG
+Seq249                       -      2  2.87e-06 TTTAAGGGCT AAATTCGGAAAATCAACCAGC G         
+Seq240                       -     23  3.10e-06 CGGTACGTCG AATTCCAGAACGTAATCAACA TTGATGCCCG
+Seq174                       +     22  3.62e-06 ACACCCGAAC AGTTACTTGAATTACAAAAGA AACAAGGAAA
+Seq28                        -     18  3.62e-06 GTATCCCACT AATTCCCCGCGAAAAACCAGA CATCGGATAA
+Seq110                       +     31  4.22e-06 GACACTTGTA AGTTACTAAAAGTAAATAAGA AAATGCCTCT
+Seq282                       +     32  6.08e-06 GCTATAACGT GATGACCTGTATTGAAAAAGA CGCCTGCGT 
+Seq489                       +     20  7.50e-06 GCTGGCGACG TATTCCAGTTCGAAATCAAGC GAGGAGGCGT
+Seq303                       -     25  8.04e-06 CCAGCGTAAC CAATAGTGGTAAAAATCAACG CCCAGGCAAA
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 2 block diagrams
+--------------------------------------------------------------------------------
+SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+Seq431                            8.9e-11  39_[+2]_1
+Seq361                            8.9e-11  38_[+2]_2
+Seq332                            8.9e-11  40_[+2]
+Seq60                             1.1e-08  22_[-2]_18
+Seq125                              3e-08  7_[-2]_33
+Seq96                             4.4e-07  18_[+2]_22
+Seq341                            4.9e-07  4_[-2]_36
+Seq117                            5.9e-07  27_[-2]_13
+Seq374                            8.6e-07  4_[-2]_36
+Seq373                            8.6e-07  34_[-2]_6
+Seq131                              1e-06  14_[-2]_26
+Seq163                            1.1e-06  28_[+2]_12
+Seq137                            1.1e-06  21_[-2]_19
+Seq17                             1.1e-06  24_[+2]_16
+Seq166                            1.2e-06  7_[-2]_33
+Seq415                            1.8e-06  16_[-2]_24
+Seq350                            1.8e-06  35_[-2]_5
+Seq359                            2.1e-06  27_[+2]_13
+Seq508                            2.3e-06  34_[+2]_6
+Seq304                            2.6e-06  16_[-2]_24
+Seq249                            2.9e-06  1_[-2]_39
+Seq240                            3.1e-06  22_[-2]_18
+Seq174                            3.6e-06  21_[+2]_19
+Seq28                             3.6e-06  17_[-2]_23
+Seq110                            4.2e-06  30_[+2]_10
+Seq282                            6.1e-06  31_[+2]_9
+Seq489                            7.5e-06  19_[+2]_21
+Seq303                              8e-06  24_[-2]_16
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 2 in BLOCKS format
+--------------------------------------------------------------------------------
+BL   MOTIF 2 width=21 seqs=28
+Seq431                   (   40) CAATTCAGGTAATAAAAAAGC  1 
+Seq361                   (   39) CAATTCAGGTAATAAAAAAGC  1 
+Seq332                   (   41) CAATTCAGGTAATAAAAAAGC  1 
+Seq60                    (   23) AATTACTCGAAAAAAACAAGA  1 
+Seq125                   (    8) GATTTCAGGCATAAAAAAAGA  1 
+Seq96                    (   19) ATTTAAATGAAATAAAAAAGA  1 
+Seq341                   (    5) CAATAAAAGCAATACACAACC  1 
+Seq117                   (   28) AAATACCTTTAATGAACAAGC  1 
+Seq374                   (    5) CATTAAAGGGAGTAATAAACA  1 
+Seq373                   (   35) GATTTCTGACTGTAAAAAAGC  1 
+Seq131                   (   15) CCTGAAAAATAATAAAAAAGC  1 
+Seq163                   (   29) AATTTCCGTTAGAACAAAACA  1 
+Seq137                   (   22) AAATACTGTTAGTAAATAAGG  1 
+Seq17                    (   25) ACATTAACGAATTAAACAACC  1 
+Seq166                   (    8) AATTAGAGGAAGAAAAAATGA  1 
+Seq415                   (   17) ACTTAAGGTCAAAAAAACAGA  1 
+Seq350                   (   36) CAATCATCACAGAAAACCAGC  1 
+Seq359                   (   28) CATTCAGGACAAAAAAATAGC  1 
+Seq508                   (   35) TAATTACAGCAATGAAAAAGC  1 
+Seq304                   (   17) GCTGCAACGAAATAAAAAACC  1 
+Seq249                   (    2) AAATTCGGAAAATCAACCAGC  1 
+Seq240                   (   23) AATTCCAGAACGTAATCAACA  1 
+Seq174                   (   22) AGTTACTTGAATTACAAAAGA  1 
+Seq28                    (   18) AATTCCCCGCGAAAAACCAGA  1 
+Seq110                   (   31) AGTTACTAAAAGTAAATAAGA  1 
+Seq282                   (   32) GATGACCTGTATTGAAAAAGA  1 
+Seq489                   (   20) TATTCCAGTTCGAAATCAAGC  1 
+Seq303                   (   25) CAATAGTGGTAAAAATCAACG  1 
+//
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 2 position-specific scoring matrix
+--------------------------------------------------------------------------------
+log-odds matrix: alength= 4 w= 21 n= 21279 bayes= 10.1743 E= 2.2e-004 
+    73     55    -62   -197 
+   142    -62   -162   -297 
+    48  -1145  -1145    111 
+ -1145  -1145   -103    167 
+    73     -3  -1145     20 
+    35    138   -162  -1145 
+    73    -30   -103    -17 
+   -97    -30    129    -97 
+   -17  -1145    138    -65 
+    20     38   -262     35 
+   161   -162   -262   -297 
+    93  -1145     55    -97 
+    35  -1145  -1145    119 
+   161   -262   -103  -1145 
+   167   -103  -1145  -1145 
+   161  -1145  -1145    -97 
+   102     70  -1145   -197 
+   155    -62  -1145   -297 
+   178  -1145  -1145   -297 
+ -1145     19    177  -1145 
+    61    119   -162  -1145 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 2 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 21 nsites= 28 E= 2.2e-004 
+ 0.464286  0.321429  0.142857  0.071429 
+ 0.750000  0.142857  0.071429  0.035714 
+ 0.392857  0.000000  0.000000  0.607143 
+ 0.000000  0.000000  0.107143  0.892857 
+ 0.464286  0.214286  0.000000  0.321429 
+ 0.357143  0.571429  0.071429  0.000000 
+ 0.464286  0.178571  0.107143  0.250000 
+ 0.142857  0.178571  0.535714  0.142857 
+ 0.250000  0.000000  0.571429  0.178571 
+ 0.321429  0.285714  0.035714  0.357143 
+ 0.857143  0.071429  0.035714  0.035714 
+ 0.535714  0.000000  0.321429  0.142857 
+ 0.357143  0.000000  0.000000  0.642857 
+ 0.857143  0.035714  0.107143  0.000000 
+ 0.892857  0.107143  0.000000  0.000000 
+ 0.857143  0.000000  0.000000  0.142857 
+ 0.571429  0.357143  0.000000  0.071429 
+ 0.821429  0.142857  0.000000  0.035714 
+ 0.964286  0.000000  0.000000  0.035714 
+ 0.000000  0.250000  0.750000  0.000000 
+ 0.428571  0.500000  0.071429  0.000000 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 2 regular expression
+--------------------------------------------------------------------------------
+[AC]A[TA]T[ATC][CA][AT]G[GA][TAC]A[AG][TA]AAA[AC]AA[GC][CA]
+--------------------------------------------------------------------------------
+
+
+
+
+Time 89.74 secs.
+
+********************************************************************************
+
+
+********************************************************************************
+MOTIF  3 MEME	width =  20  sites = 193  llr = 1353  E-value = 1.2e-005
+********************************************************************************
+--------------------------------------------------------------------------------
+	Motif 3 Description
+--------------------------------------------------------------------------------
+Simplified        A  :a721222:152123344:2
+pos.-specific     C  3::43333:11323213:32
+probability       G  :::3223::7112322:175
+matrix            T  7:314225a:35433425:1
+
+         bits    2.2                     
+                 2.0                     
+                 1.8  *      *           
+                 1.5  *      *           
+Relative         1.3  *      *           
+Entropy          1.1  *      *         * 
+(10.1 bits)      0.9 ***     **        * 
+                 0.7 ***     **        * 
+                 0.4 ***    ***       ***
+                 0.2 *****  *****    ****
+                 0.0 --------------------
+
+Multilevel           TAACTCCTTGATTCTTATGG
+consensus            C TGCAGC  TCGGAACACC
+sequence                A TT     CT G   A
+                          G       A      
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 3 sites sorted by position p-value
+--------------------------------------------------------------------------------
+Sequence name            Strand  Start   P-value                    Site      
+-------------            ------  ----- ---------            --------------------
+Seq243                       +     24  8.84e-07 CGATGGCGCG TAAATCGCTGACGGAAATGG CAGATTTACT
+Seq171                       +     24  1.13e-06 CACGCCTCGC TATCCAGTTGACGAAGCTGG CTTTTCACCG
+Seq209                       -     15  1.44e-06 GCAAATCATT CATCTCCTTGTTGGGTAAGG AGTCTTTCGT
+Seq6                         -     14  1.81e-06 GTAGACCGCA TATCGCCTTGATGCGGCTCG GAAAAAAATA
+Seq133                       +     24  2.26e-06 CGGGATTGTT TATACCGTTGACTGGGAAGG AAAACCGGTG
+Seq42                        +     27  2.26e-06 ATATATTTAC TAAATCTATGATTGGTATGG GGCTGGTGTG
+Seq360                       +     24  4.28e-06 ACCCGGATGG TAAGCATCTGATCATTCTGC ATACCAAAGG
+Seq104                       -     24  4.28e-06 TTGCCATTGT TAAATGACTGATCGTACTGG TAATCAGTAC
+Seq369                       -     21  5.22e-06 GTTCTTCACG TAACGCTTTGTCGGTAATGC GAATAATGCT
+Seq497                       +     21  6.35e-06 ACGGTCAGGC CAAACACCTGATTCTGATGC AGACGACGGG
+Seq393                       -     23  7.68e-06 CCAGGCCGAG CATCTCATTGACCCGGCTGG CAATTTCCGC
+Seq4                         +     24  7.68e-06 TCTTGCGAGG TAAGTACCTGACGCAAAAGA GGATCGTCCG
+Seq501                       -     23  9.23e-06 AGATCGCGCG TAAATTGCTGCTTGAGCTGG TGAATATGGG
+Seq351                       +     10  9.23e-06  TGTAGAGAA TAACCGTTTCTCTTTGCTGG AAAAATTAAC
+Seq228                       -     16  9.23e-06 AAACCGGCGA TAACACTCTGACGTTAATGG ATAAAGGTTA
+Seq89                        +     16  9.23e-06 AGAATTTCAG TAACTCTTTGCTTTCGTTGG TATCGGCAAC
+Seq2                         +     21  9.23e-06 TTAACGATCC CATCCTGTTGTCGTATATGG GATTTTTCAG
+Seq419                       +      9  1.11e-05   GCGGTGTT TAAATCTTTGTGGGATCAGG GCATTATCTT
+Seq281                       +     23  1.11e-05 GTTCAGCAAT TAACTGGTTGCGCTATATGG AAATTAGCCG
+Seq236                       -     20  1.11e-05 CAGCACGACA TAAGCGCATGATCGTTCACC TAAACGTTCA
+Seq404                       +     24  1.32e-05 ACGCGGCGCG CAACCAGTTGAGTGTACTGA GAACCGAAGT
+Seq315                       +     15  1.32e-05 GTTTGTGCGG TAACGCCGTGTTTCGTATGG ACATGGCTGA
+Seq258                       -     23  1.32e-05 GCATTCGCGT TAACGGTTTGTCTTTGCTGA GATTGTGTTC
+Seq193                       -     18  1.32e-05 AAAAAGCACT TAACTTCCTGACGCCGCACC AGAAATGGGG
+Seq105                       +     21  1.32e-05 TAGCCGGGGT TAACCGGCTGCTATTACAGG AGAAACCTTT
+Seq206                       -     19  1.56e-05 TTAAAGACGA TAACTACCTGCTTCGCCACG ACATTGACGA
+Seq69                        +     20  1.56e-05 AACCGGTGCG TAAAGCATTGCTTCATCAGG ATAAATCATA
+Seq418                       +     22  1.85e-05 ATGTAACCGC TATGTTCCTGACGCAGCACG TTTTGCAGCG
+Seq244                       +     18  1.85e-05 CGCTCAACAT TAAGCATATGTCGGTAAAGG CATTTTTGCA
+Seq203                       +     23  1.85e-05 AGATGATCGT TAAAGCGATGAGTATTCTGG TATTCCCGTT
+Seq170                       -     19  1.85e-05 ACCTCGCCAG TAACCTGTTGGCGATTCTGC ATTATTCTGC
+Seq37                        -     22  1.85e-05 AAAGCCTCGG TAAACGCTTCTTTTCGATGG ATTTTAGCCG
+Seq55                        -     24  2.55e-05 TTCTGTTCCA TAATCGCCTGACCGATATGA ATAATTTCGG
+Seq268                       -      6  2.98e-05 TGCCCATTAA TAACGACATGCTCGTTATGC GAATC     
+Seq119                       -     23  2.98e-05 TTACTACCCG CAACCAGTTGACCAGTAACC AAAGTATTCT
+Seq403                       +     34  3.46e-05 CCTTTGATCT CAAACGGTTCTTTGGTCAGG CGCTGATT  
+Seq253                       +     26  3.46e-05 GACTGAGGAA TATCACGTTGAGTCATCTGC ATTTTGGTAC
+Seq222                       -      2  3.46e-05 GCTCCAAATC CAACCTCTTCTTTTAGCTCG C         
+Seq416                       +     18  4.01e-05 TGAAGCAGGA TAAATCCATCAATCTGATGG AAATGCCGGG
+Seq224                       +     20  4.01e-05 GGCCTGTGGC TAACCACTTCATTTACCACC AACTACGACG
+Seq164                       +     24  4.01e-05 CCTAAACGCA TAAATGCCTGATGCGCTACG CTTATCAGGC
+Seq139                       -     22  4.01e-05 CAAATATGGC TAACTGGTTAAATCAACTGC AATCCCTGCT
+Seq106                       -     21  4.01e-05 TAAGCCTATG CAAATCATTGAGCCTGAAGG TAAAAATTAC
+Seq98                        +     18  4.01e-05 TTCGCCAGGA TATCCAGATAATTCTGATGG TTAGCACTCT
+Seq56                        +     27  4.01e-05 TTCGCCAGGA TATCCAGATAATTCTGATGG TTAGCACTCT
+Seq9                         -     18  4.01e-05 AGACAACCAG CAAGTCCTTGTCGGCGTTGA GTTAATTACC
+Seq503                       +     27  4.64e-05 GCCCATTGGC TAAGCATTTGTAAGTCATGG CTGATAAGCA
+Seq448                       -     20  4.64e-05 AGCTGGCTCA CATCTCCCTGACTCTGCGGC AATATGGCGT
+Seq204                       -     17  4.64e-05 TACTCATGGT TATGATGTTGTTGCCTATGG TAATACCGGA
+Seq144                       +     15  4.64e-05 TAAAGGCGAG TAATTCTCTGACTCTTCGGG ATTTTTATTC
+Seq127                       -     26  4.64e-05 GTGTCATCCT TATCCCATTCTTTGTATTGG TCTTTTATCT
+Seq29                        +     19  4.64e-05 CATTGCGGGT TATGCTATTGACGTTGCTGA TAAAATCCCA
+Seq175                       -     24  5.34e-05 CTGAGTACGG TAACTATCTGTTCTCTTACG CTTGTGTGCC
+Seq143                       +     28  5.34e-05 TTCGTCCACT TAAGGTTCTGATCCTTAACC TGATGCCGAA
+Seq412                       -     29  6.13e-05 CGCGAAAGGT TATGTCATTAATTCCGCAGG CGGAAATGAC
+Seq180                       -     18  7.02e-05 GCGTTGATAA TAACGTATTGTGACTTAAGG GAAATTTAGC
+Seq112                       +     24  7.02e-05 TCTGAACACT TATGTCTTTAATTATTCTCG TGGTTCACTA
+Seq154                       -     24  8.01e-05 AGTTTTTCGT TAATCAGTTGTTCCAGTTCG GTGTTTTTCA
+Seq91                        -     22  8.01e-05 GCGGCAACCG TAAAGAGATGATCCAGAAGA TTCTTTCTGA
+Seq81                        +     27  8.01e-05 GCCCGTTTGT GAACCACTTGTTTGCAAACG GGCATGACTC
+Seq68                        +     24  8.01e-05 AAAGTAGGTT TAACCTGTTGCATTAATTGC TAAAAGCTAT
+Seq54                        -     11  8.01e-05 ACAGTCCGAT CAACAACCTGAACGATCTGC TGGCGAAGCG
+Seq425                       +     29  9.12e-05 TCTGGTGCGA CAACCGCTTCCATATTCAGG TCGCGACGTA
+Seq310                       +     21  9.12e-05 ATCGTCGGGA TAAAGTGATGACGGAAAAGC GATAAATGCC
+Seq279                       -     20  9.12e-05 AGATTGGCAG TAACGGCATGTCTTTTTGGG CATTTCGCGA
+Seq49                        +     24  9.12e-05 ATGTACAAGC TAACCAACTGTCAAATAAGA GATTATGATA
+Seq329                       -     21  1.03e-04 ATTACCGGCT TAAGCACTTCATATTCAACG TCGATGAGCT
+Seq283                       -     21  1.03e-04 TGTAATAGCC GATCCTGTTGATCCGTATGC CAGTAAGTTT
+Seq162                       -     31  1.03e-04 CTAAAACGAT CATCTCACTGTTCCTCAACG CTTTTGTGTG
+Seq149                       +     23  1.03e-04 CCCGATAACA TAAGCCCATGAGAAAGCAGA GAACACATAG
+Seq25                        +     17  1.03e-04 ATCAGCTGGG TATGCGCTTGTTCCATTTGT CTTTTTCCTG
+Seq492                       +     21  1.17e-04 CTGGCAAAAG CAACATACTGACGTAACAGG TTATTAGCGT
+Seq382                       +     16  1.17e-04 GCCTGTGCAG CAAACGCTTCATTAGCCTCG ATAAGATCGA
+Seq334                       -      9  1.17e-04 GCAATCAATT TATCGGTTTGCAGCGGATGG ATGGTGGA  
+Seq321                       -     25  1.17e-04 GGACCACAAA TAAATGCCTCATCATAAAGA CGAAAATTAA
+Seq207                       -     21  1.17e-04 TTCGCCACGC TAAGTGCTCGTTTCGACAGG CATCTTTTTC
+Seq103                       +     19  1.17e-04 CACCCTTATC TATCTTCTTGCCCTGTTTCG TTTTTTCTTT
+Seq513                       -     18  1.32e-04 AGCGTGAGAA CAACCATCTGAAAGAACAGC AGAACGGCTG
+Seq113                       -     19  1.32e-04 ATGTCTACAG CAAAGAGTTGTATATCAAGG CACATTGATG
+Seq331                       +     15  1.49e-04 GGTGGGGCGC TAAATATTTCATTTTTCACC GTCATGATGT
+Seq227                       -     20  1.49e-04 AGCATCTCTT CATCTATCTGATCTGGTTGC AGGTTTCCTT
+Seq221                       -     12  1.49e-04 TTAATGTTAA TAACTAGTTAATTAAAGTGG CATCCTCCCG
+Seq216                       -     29  1.49e-04 GAAATAATGC TAACAGCCTATCCTATCAGG CTATTTTATT
+Seq153                       -     22  1.49e-04 ATAAGTCGGA TAACAAGCTGTATAAACTGA CGAAAAATAT
+Seq77                        +     25  1.49e-04 TCGCAGAGCA TAAGTACATGTCTGTTATCT TGTTTATTGC
+Seq58                        +     21  1.49e-04 AGTGAATGCG CATCCGCATGTTTCTGAACA CATTGTGGTG
+Seq53                        +     23  1.49e-04 GCTGGGGCCG CAACACCCTGACGCGTAAGT TAAAAGAGCT
+Seq50                        -     39  1.49e-04        GTT CATCGCGATGTTGCTCATGA TAAGTCGCTA
+Seq512                       -     36  1.67e-04     GTTCGG CATCATGCTGACTGAAATGC ACGGCACACA
+Seq483                       +     24  1.67e-04 CTCATAGTGA TATCCGATTATTTTTTAACG CTTCCAGAAT
+Seq307                       -     18  1.67e-04 CAGCTAAAGA CAACCTCTTCATTCTCTTCC GCTTTCACCG
+Seq280                       -     15  1.67e-04 TTATAGCGAT CAAGTTGTTATCGATAAAGG TAGCGTTAAT
+Seq147                       -     23  1.67e-04 AACGACTCAA TAAACGATTGACCTAACGGC GATAATTTTC
+Seq26                        -     20  1.67e-04 CGCAGAGAGA TAACTCCCTCTAAAATAACG AAAGTATCTT
+Seq8                         +     28  1.67e-04 TTAATGTTAC TATCTGGTTGAGACTGTTGA TAAAACGTAA
+Seq427                       +     25  1.87e-04 ACCCGGAAGA TAAGCCGCTGGAAAGTCTGC TGGATATTCT
+Seq378                       -     28  1.87e-04 GTATCGCCGT TAAAGGACTGATCGAAATCA CCATTGGTGT
+Seq157                       -     25  1.87e-04 GCCGGACGGG CATGTACTTCATCGGTAAGA AAAATACTGA
+Seq92                        -     19  1.87e-04 CCCTGGCACG TAAGCTACCGATTGTGCTGG GAATGTTGCT
+Seq72                        +     19  1.87e-04 TAATTTGTAA TAAGGCCATGTTTAGCTTCC AGAAATTAAA
+Seq33                        +     24  1.87e-04 GAATATCCAT TATCTCAATGCCTTATCAGA GATTCTTTTC
+Seq12                        -     21  1.87e-04 AGTGGGACGG CAAGTATATGATGGATAACA ACTATCAATA
+Seq444                       -     23  2.09e-04 TCGCCTGTCA TATTGGCCTGACTCACAAGC AGTTTTTCAC
+Seq298                       -     24  2.09e-04 GCACCTTCCT TAAGTAATTGAGTGTTTTGT GTGATCTGCA
+Seq267                       +     22  2.09e-04 CACAGTGGCG TAAGTTCTTCAACAGCAAGC GGGATCTTCT
+Seq201                       +     24  2.09e-04 ATGAATAAGC TAACGCTATGATGTCCGTGG TAAACCCGCC
+Seq263                       +     19  2.33e-04 AATCTTCACA TAACCGATTGAAGCGTTGGA TATTCCCCCG
+Seq140                       +     29  2.33e-04 TGAACGTTAT CAACTGTCTGCTGGGTATGT TCGTTCAGTT
+Seq124                       +     25  2.33e-04 ATCATGACGC TATATACATGATTACATAGC GAAAGTGTGG
+Seq27                        +     23  2.33e-04 GCTCTGACCA CAAGTAATTGTTCAGATTGA TAAAACGTGG
+Seq408                       +     17  2.60e-04 AATCGAGCTC TAATTCTTTGCAGAATTTGG GAATTTGTAT
+Seq317                       -     18  2.60e-04 CACAAGGCGA TAATGTGGTGATTAATCTGG CGTCAGATGA
+Seq260                       +     14  2.60e-04 GGATCGCCAT TAACGCATTGGTGAAAATCA CAATGCCGTC
+Seq160                       -     21  2.60e-04 GCCAGCAGTT GATGTCCTTGTTCGCTAAGA ATACTTTCTG
+Seq48                        +     22  2.60e-04 CCGGTATTGG TAAATTGCTGTGCGCCAACG TTTTTATTCG
+Seq45                        +     27  2.60e-04 GAACCGGACA TAACCCCATGAGTGCAATAG AAAATTTCGA
+Seq13                        +     20  2.60e-04 GGCAACAGGG TAAGTTCATCTTTTGTCTCA CCTTTTAATT
+Seq453                       +     26  2.88e-04 ATCAGAATCA CAACGACATGTTTAACCTGT GGATCCTGGG
+Seq388                       +     20  2.88e-04 GCGGTCATGA TAAATCCTTAGCAGGTATGG AAAAGCAAAC
+Seq387                       -     20  2.88e-04 CGTGGAATCG CAACTACTTCATTCTCCTCT CAACGGGCGT
+Seq308                       +     25  2.88e-04 ACATCCGGGT TAAACCATTGCTTTCCATCA CTTTCAAATG
+Seq273                       -     22  2.88e-04 TGGCAATCTG TATGTGTTTGGCGGCATTGG CAAAAACAGC
+Seq231                       -     28  2.88e-04 GTATTGCTAA TAATATGTTGTTGGAAAACG GCGGAAGTTT
+Seq210                       -     19  2.88e-04 ATCAAAAATG CATACTTTTGAAGTGGCTGC CAGGCATCAG
+Seq136                       -     21  2.88e-04 AAATTTCTGC TAACTGCTTATCGCTCAGGC CTTTTTCAAA
+Seq116                       -     22  2.88e-04 ACTAATTCTA TAAGTGTCTGGTCTTGTTGA TAATATAGTT
+Seq5                         +     20  2.88e-04 TTTCACAACG TAACTATATAAATTTGTTGG TAGTTTTAAC
+Seq506                       +     21  3.19e-04 CGGAACTATC TAAAACGTTGCAGACAAAGG ACAAAGCAAT
+Seq188                       -     20  3.19e-04 GCAAGATGGG TAAACGTCTGAACTGTAAGT GATCGTCAGG
+Seq421                       +     18  3.53e-04 ATCCTCGCTT TATGTCCTTGTTCGATAAAC ACAATAAACT
+Seq390                       +      2  3.53e-04          A TATCTCACTATCCATTAACG GATTTGTGAC
+Seq284                       +      4  3.53e-04        TGC CAAGCGGTTAAGTACGCTCG ATCTCAACGA
+Seq259                       -     24  3.53e-04 CTGCGCTGCC CATCTCTTTAATATGTTTGG CATAGTTACT
+Seq198                       -     18  3.53e-04 TTTCTCTTCT CAAACAGTTGTAAAAAAAGC CTGATCACCA
+Seq148                       +     30  3.53e-04 CTTGTCCATC CAAATGGTTCTAAGTACTGG CGTTTGCAGT
+Seq84                        -     26  3.53e-04 AGACGTTGCC CAAATCGATGCTTTCGTTGC AAAAACCAGG
+Seq477                       +     12  3.90e-04 GGAAGATATT TATGTCTCTGGCGTAAAAGA AGAAAACATC
+Seq386                       -     22  3.90e-04 GAAACCTACC TATTTTCATGTCCGTACTGA AACATACTGA
+Seq336                       +     24  3.90e-04 TGCAGGGATT GAAATCGTTGATCCAGAAGT GGTTCGCGAA
+Seq200                       -     20  3.90e-04 GTGTTTCACG TAAGTTACTCGTCTTACAGG CGGTGGCTCG
+Seq138                       -     19  3.90e-04 ATTTCCGCGC TATCTCGCTGGAAGAAAAGC CAAAACAGCC
+Seq129                       -     23  3.90e-04 TTGGCACATC TATTGCTTTGTTATACAAGG CAAACCCTGA
+Seq319                       +      5  4.30e-04       TAGG CAAGCCGCTGCCGTTCAGCG AAGTTACTGG
+Seq316                       +     21  4.30e-04 AGAACTTACT TATCTTCATAATATGTCAGC ACAAGAAAAG
+Seq158                       -     19  4.30e-04 AAAAAATCTG GAAGCCTTTGAACCTGTAGC CGAATCTTAT
+Seq122                       +     21  4.30e-04 CCAATCCTGA TAAGTAATTTTTTTGAAAGG GTATTTTCCG
+Seq507                       +     21  4.72e-04 CATTGTTGGC TATCCCCTTCATAGCCGAGG CAAAAAGGGG
+Seq464                       +     23  4.72e-04 TAAACATGAT TAATCAATTGATCTACTGGG TACTCTCGAC
+Seq196                       +     22  4.72e-04 TGGCCTGAAG TAAGACCGTGTCTGCTAACG CTTTTTGCAC
+Seq169                       -      5  4.72e-04 ACTGCACGCG TAATTTGCTCAGGGGTATGC GCCG      
+Seq39                        -     21  4.72e-04 ATATGTGCGC TAACCCTTTATATACACTCA ATAATCTTGC
+Seq7                         -     23  4.72e-04 GACCGATGCA CATATATTTGATTTCTAAGT AATCTTCGAT
+Seq447                       +     13  5.18e-04 TCAAACTTCT TAACTTCCTGCTCTCTTTCT CGTTTTTCAT
+Seq435                       +     30  5.18e-04 TCATTGGTTT TATGCTCTTTTTCGTGATGC GGGCAATGGG
+Seq288                       -     21  5.18e-04 CGGTACTACG CAAGTGTTTGAAGCTTATAG CAAGTTTATT
+Seq285                       -     18  5.18e-04 CTGGTTGCTG TAACCAGTTCAGATGAAACC AATATGGTTG
+Seq239                       -     28  5.18e-04 TCCCGATATC CATCCCTTTGTAAATAAGGG CAGAATCAAC
+Seq452                       +     18  5.68e-04 CGTTTATGGC TAAGCCGGCGATTAATCTGG CGAAATACAA
+Seq438                       +     19  5.68e-04 TCACCGACCG TAAGCCGCTATCGCGCGAGG AGATTTTGAG
+Seq380                       +     24  5.68e-04 GTACGCTCTC CAACGCCATGTTGTCGCTAG GAATTTACGA
+Seq422                       +     41  6.21e-04 TCTGTTGTTC TAACACCTTGCCACCACGGC A         
+Seq420                       +     17  6.21e-04 TCATTGCGCC CAAACTGTTTACCCGACAGG AAAAAGAGGC
+Seq312                       -     41  6.21e-04          A CATCACGTTCATGACAATGA AACCGAGTTG
+Seq292                       -     23  6.21e-04 GAAGCAGCCA TAAGCCCATAATATTTTTCA GCACCCGATA
+Seq242                       +     24  6.21e-04 AACTGGTAGC TAATATGTTGACTGCCTTCG GCTTTACATT
+Seq215                       -     19  6.21e-04 AAGTGGTCCT CATGTGCATGATGGATTGGA AAATAATTTC
+Seq83                        -     27  6.21e-04 ATTATTCTGA CAAGCCTCTCATTCTCTTGT CATTTCCCCC
+Seq21                        +     23  6.21e-04 GCAGAAGCGG TAAGCGGTTTATAACTCACG CCTTTTAACG
+Seq504                       -     13  6.78e-04 CCTCAGTTTC TATGCAAATGGGGATTCAGG TGCGTAATAA
+Seq481                       -     36  6.78e-04     TTTGTG CATGCGCCTCTGTTGTAACG GTTAATGCAG
+Seq318                       -     34  6.78e-04   GTGATCGT TATCTCGATATTTAAAAACA AATAATTTCA
+Seq76                        +     18  6.78e-04 TTGACCGTGG TAATGATATGATTTCACACC TTTACCAGCC
+Seq414                       -     17  7.39e-04 ATAAAGACAG TAACAAGCTGGATCTGTACG GGAAAGTTAA
+Seq276                       -     19  7.39e-04 TCATCACTGG TAAAGTCCTGACAATACTCT AGAACGGTGG
+Seq235                       -     22  7.39e-04 AGGCCAACAG TAAGTCCGTCTCTGGACTCC AGATTTTCTC
+Seq134                       +     24  7.39e-04 TGGCATAAGT GAAGTCGTTGACGCCCTTCA GGAATTCAAA
+Seq325                       -     16  8.05e-04 CATTTCCCTT CATTCCTTTGCGTTTTCTCG CTGGCGAAGA
+Seq264                       -     16  8.05e-04 CTTCATCATG TAAGCGATCGTTGGCAATCG CCGTTAAGAC
+Seq374                       -     32  8.75e-04 TGTTAAGGAC TATCTTGTTAAATGCTCGGA AACAGACATT
+Seq248                       +     20  8.75e-04 AATATGACCG TAAGTGTCTATTTCATGAGC AAAATTGGCC
+Seq490                       -     19  1.03e-03 CATGCAAGCC TAAAGGATTGAGTTATCGCA TTATGCCCAT
+Seq519                       -     15  1.11e-03 ACCAGTGCCG TAAGGTACTGTCTAAGAAAG AGAAAGGATA
+Seq406                       +     22  1.11e-03 TTCTTTGCCA TAAAGACTTGTTCAATGGCG AAATAATCAG
+Seq18                        -     21  1.11e-03 GAAAGTCCGG TAATCTTTTGTATCCATTCA GGATCCGCCC
+Seq14                        -     31  1.11e-03 ATCATCGACG GAACTTCTTATAACGTAAGG TGAAAAGCTG
+Seq226                       -     18  1.30e-03 CTTCAAGAGC TAAGCCACTGAGAGTGCCGG AGATAAGCGC
+Seq459                       +     25  1.40e-03 AACCCGTACA CAACAAATTGAAGAATTACA GAAAGAGTGG
+Seq439                       -     25  1.40e-03 AAATTACATG TAATGCATTGACTGATAATG AATATTTTAA
+Seq479                       -     19  1.50e-03 CAAAACGCTG CAACGTCCTGAGCATTTGCA CCTTTTAGCG
+Seq275                       -     33  1.61e-03  AGCTCGCGA TAAAGTCATTAAGAAAATGG CAGAAAACAT
+Seq219                       +     24  1.61e-03 AAAATCGTCA GATCGTGCTGAATCTCTACG AGAAAGGGAT
+Seq30                        +     31  1.99e-03 AAAATAATCA TAAGCGCATATTTTTTAATG AAAAATCACC
+Seq434                       +     26  2.42e-03 GAATCATGAG TAAGGTACTGGAAATGTTGA CCACTTAATC
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 3 block diagrams
+--------------------------------------------------------------------------------
+SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+Seq243                            8.8e-07  23_[+3]_18
+Seq171                            1.1e-06  23_[+3]_18
+Seq209                            1.4e-06  14_[-3]_27
+Seq6                              1.8e-06  13_[-3]_28
+Seq133                            2.3e-06  23_[+3]_18
+Seq42                             2.3e-06  26_[+3]_15
+Seq360                            4.3e-06  23_[+3]_18
+Seq104                            4.3e-06  23_[-3]_18
+Seq369                            5.2e-06  20_[-3]_21
+Seq497                            6.3e-06  20_[+3]_21
+Seq393                            7.7e-06  22_[-3]_19
+Seq4                              7.7e-06  23_[+3]_18
+Seq501                            9.2e-06  22_[-3]_19
+Seq351                            9.2e-06  9_[+3]_32
+Seq228                            9.2e-06  15_[-3]_26
+Seq89                             9.2e-06  15_[+3]_26
+Seq2                              9.2e-06  20_[+3]_21
+Seq419                            1.1e-05  8_[+3]_33
+Seq281                            1.1e-05  22_[+3]_19
+Seq236                            1.1e-05  19_[-3]_22
+Seq404                            1.3e-05  23_[+3]_18
+Seq315                            1.3e-05  14_[+3]_27
+Seq258                            1.3e-05  22_[-3]_19
+Seq193                            1.3e-05  17_[-3]_24
+Seq105                            1.3e-05  20_[+3]_21
+Seq206                            1.6e-05  18_[-3]_23
+Seq69                             1.6e-05  19_[+3]_22
+Seq418                            1.8e-05  21_[+3]_20
+Seq244                            1.8e-05  17_[+3]_24
+Seq203                            1.8e-05  22_[+3]_19
+Seq170                            1.8e-05  18_[-3]_23
+Seq37                             1.8e-05  21_[-3]_20
+Seq55                             2.5e-05  23_[-3]_18
+Seq268                              3e-05  5_[-3]_36
+Seq119                              3e-05  22_[-3]_19
+Seq403                            3.5e-05  33_[+3]_8
+Seq253                            3.5e-05  25_[+3]_16
+Seq222                            3.5e-05  1_[-3]_40
+Seq416                              4e-05  17_[+3]_24
+Seq224                              4e-05  19_[+3]_22
+Seq164                              4e-05  23_[+3]_18
+Seq139                              4e-05  21_[-3]_20
+Seq106                              4e-05  20_[-3]_21
+Seq98                               4e-05  17_[+3]_24
+Seq56                               4e-05  26_[+3]_15
+Seq9                                4e-05  17_[-3]_24
+Seq503                            4.6e-05  26_[+3]_15
+Seq448                            4.6e-05  19_[-3]_22
+Seq204                            4.6e-05  16_[-3]_25
+Seq144                            4.6e-05  14_[+3]_27
+Seq127                            4.6e-05  25_[-3]_16
+Seq29                             4.6e-05  18_[+3]_23
+Seq175                            5.3e-05  23_[-3]_18
+Seq143                            5.3e-05  27_[+3]_14
+Seq412                            6.1e-05  28_[-3]_13
+Seq180                              7e-05  17_[-3]_24
+Seq112                              7e-05  23_[+3]_18
+Seq154                              8e-05  23_[-3]_18
+Seq91                               8e-05  21_[-3]_20
+Seq81                               8e-05  26_[+3]_15
+Seq68                               8e-05  23_[+3]_18
+Seq54                               8e-05  10_[-3]_31
+Seq425                            9.1e-05  28_[+3]_13
+Seq310                            9.1e-05  20_[+3]_21
+Seq279                            9.1e-05  19_[-3]_22
+Seq49                             9.1e-05  23_[+3]_18
+Seq329                             0.0001  20_[-3]_21
+Seq283                             0.0001  20_[-3]_21
+Seq162                             0.0001  30_[-3]_11
+Seq149                             0.0001  22_[+3]_19
+Seq25                              0.0001  16_[+3]_25
+Seq492                            0.00012  20_[+3]_21
+Seq382                            0.00012  15_[+3]_26
+Seq334                            0.00012  8_[-3]_33
+Seq321                            0.00012  24_[-3]_17
+Seq207                            0.00012  20_[-3]_21
+Seq103                            0.00012  18_[+3]_23
+Seq513                            0.00013  17_[-3]_24
+Seq113                            0.00013  18_[-3]_23
+Seq331                            0.00015  14_[+3]_27
+Seq227                            0.00015  19_[-3]_22
+Seq221                            0.00015  11_[-3]_30
+Seq216                            0.00015  28_[-3]_13
+Seq153                            0.00015  21_[-3]_20
+Seq77                             0.00015  24_[+3]_17
+Seq58                             0.00015  20_[+3]_21
+Seq53                             0.00015  22_[+3]_19
+Seq50                             0.00015  38_[-3]_3
+Seq512                            0.00017  35_[-3]_6
+Seq483                            0.00017  23_[+3]_18
+Seq307                            0.00017  17_[-3]_24
+Seq280                            0.00017  14_[-3]_27
+Seq147                            0.00017  22_[-3]_19
+Seq26                             0.00017  19_[-3]_22
+Seq8                              0.00017  27_[+3]_14
+Seq427                            0.00019  24_[+3]_17
+Seq378                            0.00019  27_[-3]_14
+Seq157                            0.00019  24_[-3]_17
+Seq92                             0.00019  18_[-3]_23
+Seq72                             0.00019  18_[+3]_23
+Seq33                             0.00019  23_[+3]_18
+Seq12                             0.00019  20_[-3]_21
+Seq444                            0.00021  22_[-3]_19
+Seq298                            0.00021  23_[-3]_18
+Seq267                            0.00021  21_[+3]_20
+Seq201                            0.00021  23_[+3]_18
+Seq263                            0.00023  18_[+3]_23
+Seq140                            0.00023  28_[+3]_13
+Seq124                            0.00023  24_[+3]_17
+Seq27                             0.00023  22_[+3]_19
+Seq408                            0.00026  16_[+3]_25
+Seq317                            0.00026  17_[-3]_24
+Seq260                            0.00026  13_[+3]_28
+Seq160                            0.00026  20_[-3]_21
+Seq48                             0.00026  21_[+3]_20
+Seq45                             0.00026  26_[+3]_15
+Seq13                             0.00026  19_[+3]_22
+Seq453                            0.00029  25_[+3]_16
+Seq388                            0.00029  19_[+3]_22
+Seq387                            0.00029  19_[-3]_22
+Seq308                            0.00029  24_[+3]_17
+Seq273                            0.00029  21_[-3]_20
+Seq231                            0.00029  27_[-3]_14
+Seq210                            0.00029  18_[-3]_23
+Seq136                            0.00029  20_[-3]_21
+Seq116                            0.00029  21_[-3]_20
+Seq5                              0.00029  19_[+3]_22
+Seq506                            0.00032  20_[+3]_21
+Seq188                            0.00032  19_[-3]_22
+Seq421                            0.00035  17_[+3]_24
+Seq390                            0.00035  1_[+3]_40
+Seq284                            0.00035  3_[+3]_38
+Seq259                            0.00035  23_[-3]_18
+Seq198                            0.00035  17_[-3]_24
+Seq148                            0.00035  29_[+3]_12
+Seq84                             0.00035  25_[-3]_16
+Seq477                            0.00039  11_[+3]_30
+Seq386                            0.00039  21_[-3]_20
+Seq336                            0.00039  23_[+3]_18
+Seq200                            0.00039  19_[-3]_22
+Seq138                            0.00039  18_[-3]_23
+Seq129                            0.00039  22_[-3]_19
+Seq319                            0.00043  4_[+3]_37
+Seq316                            0.00043  20_[+3]_21
+Seq158                            0.00043  18_[-3]_23
+Seq122                            0.00043  20_[+3]_21
+Seq507                            0.00047  20_[+3]_21
+Seq464                            0.00047  22_[+3]_19
+Seq196                            0.00047  21_[+3]_20
+Seq169                            0.00047  4_[-3]_37
+Seq39                             0.00047  20_[-3]_21
+Seq7                              0.00047  22_[-3]_19
+Seq447                            0.00052  12_[+3]_29
+Seq435                            0.00052  29_[+3]_12
+Seq288                            0.00052  20_[-3]_21
+Seq285                            0.00052  17_[-3]_24
+Seq239                            0.00052  27_[-3]_14
+Seq452                            0.00057  17_[+3]_24
+Seq438                            0.00057  18_[+3]_23
+Seq380                            0.00057  23_[+3]_18
+Seq422                            0.00062  40_[+3]_1
+Seq420                            0.00062  16_[+3]_25
+Seq312                            0.00062  40_[-3]_1
+Seq292                            0.00062  22_[-3]_19
+Seq242                            0.00062  23_[+3]_18
+Seq215                            0.00062  18_[-3]_23
+Seq83                             0.00062  26_[-3]_15
+Seq21                             0.00062  22_[+3]_19
+Seq504                            0.00068  12_[-3]_29
+Seq481                            0.00068  35_[-3]_6
+Seq318                            0.00068  33_[-3]_8
+Seq76                             0.00068  17_[+3]_24
+Seq414                            0.00074  16_[-3]_25
+Seq276                            0.00074  18_[-3]_23
+Seq235                            0.00074  21_[-3]_20
+Seq134                            0.00074  23_[+3]_18
+Seq325                             0.0008  15_[-3]_26
+Seq264                             0.0008  15_[-3]_26
+Seq374                            0.00087  31_[-3]_10
+Seq248                            0.00087  19_[+3]_22
+Seq490                              0.001  18_[-3]_23
+Seq519                             0.0011  14_[-3]_27
+Seq406                             0.0011  21_[+3]_20
+Seq18                              0.0011  20_[-3]_21
+Seq14                              0.0011  30_[-3]_11
+Seq226                             0.0013  17_[-3]_24
+Seq459                             0.0014  24_[+3]_17
+Seq439                             0.0014  24_[-3]_17
+Seq479                             0.0015  18_[-3]_23
+Seq275                             0.0016  32_[-3]_9
+Seq219                             0.0016  23_[+3]_18
+Seq30                               0.002  30_[+3]_11
+Seq434                             0.0024  25_[+3]_16
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 3 in BLOCKS format
+--------------------------------------------------------------------------------
+BL   MOTIF 3 width=20 seqs=193
+Seq243                   (   24) TAAATCGCTGACGGAAATGG  1 
+Seq171                   (   24) TATCCAGTTGACGAAGCTGG  1 
+Seq209                   (   15) CATCTCCTTGTTGGGTAAGG  1 
+Seq6                     (   14) TATCGCCTTGATGCGGCTCG  1 
+Seq133                   (   24) TATACCGTTGACTGGGAAGG  1 
+Seq42                    (   27) TAAATCTATGATTGGTATGG  1 
+Seq360                   (   24) TAAGCATCTGATCATTCTGC  1 
+Seq104                   (   24) TAAATGACTGATCGTACTGG  1 
+Seq369                   (   21) TAACGCTTTGTCGGTAATGC  1 
+Seq497                   (   21) CAAACACCTGATTCTGATGC  1 
+Seq393                   (   23) CATCTCATTGACCCGGCTGG  1 
+Seq4                     (   24) TAAGTACCTGACGCAAAAGA  1 
+Seq501                   (   23) TAAATTGCTGCTTGAGCTGG  1 
+Seq351                   (   10) TAACCGTTTCTCTTTGCTGG  1 
+Seq228                   (   16) TAACACTCTGACGTTAATGG  1 
+Seq89                    (   16) TAACTCTTTGCTTTCGTTGG  1 
+Seq2                     (   21) CATCCTGTTGTCGTATATGG  1 
+Seq419                   (    9) TAAATCTTTGTGGGATCAGG  1 
+Seq281                   (   23) TAACTGGTTGCGCTATATGG  1 
+Seq236                   (   20) TAAGCGCATGATCGTTCACC  1 
+Seq404                   (   24) CAACCAGTTGAGTGTACTGA  1 
+Seq315                   (   15) TAACGCCGTGTTTCGTATGG  1 
+Seq258                   (   23) TAACGGTTTGTCTTTGCTGA  1 
+Seq193                   (   18) TAACTTCCTGACGCCGCACC  1 
+Seq105                   (   21) TAACCGGCTGCTATTACAGG  1 
+Seq206                   (   19) TAACTACCTGCTTCGCCACG  1 
+Seq69                    (   20) TAAAGCATTGCTTCATCAGG  1 
+Seq418                   (   22) TATGTTCCTGACGCAGCACG  1 
+Seq244                   (   18) TAAGCATATGTCGGTAAAGG  1 
+Seq203                   (   23) TAAAGCGATGAGTATTCTGG  1 
+Seq170                   (   19) TAACCTGTTGGCGATTCTGC  1 
+Seq37                    (   22) TAAACGCTTCTTTTCGATGG  1 
+Seq55                    (   24) TAATCGCCTGACCGATATGA  1 
+Seq268                   (    6) TAACGACATGCTCGTTATGC  1 
+Seq119                   (   23) CAACCAGTTGACCAGTAACC  1 
+Seq403                   (   34) CAAACGGTTCTTTGGTCAGG  1 
+Seq253                   (   26) TATCACGTTGAGTCATCTGC  1 
+Seq222                   (    2) CAACCTCTTCTTTTAGCTCG  1 
+Seq416                   (   18) TAAATCCATCAATCTGATGG  1 
+Seq224                   (   20) TAACCACTTCATTTACCACC  1 
+Seq164                   (   24) TAAATGCCTGATGCGCTACG  1 
+Seq139                   (   22) TAACTGGTTAAATCAACTGC  1 
+Seq106                   (   21) CAAATCATTGAGCCTGAAGG  1 
+Seq98                    (   18) TATCCAGATAATTCTGATGG  1 
+Seq56                    (   27) TATCCAGATAATTCTGATGG  1 
+Seq9                     (   18) CAAGTCCTTGTCGGCGTTGA  1 
+Seq503                   (   27) TAAGCATTTGTAAGTCATGG  1 
+Seq448                   (   20) CATCTCCCTGACTCTGCGGC  1 
+Seq204                   (   17) TATGATGTTGTTGCCTATGG  1 
+Seq144                   (   15) TAATTCTCTGACTCTTCGGG  1 
+Seq127                   (   26) TATCCCATTCTTTGTATTGG  1 
+Seq29                    (   19) TATGCTATTGACGTTGCTGA  1 
+Seq175                   (   24) TAACTATCTGTTCTCTTACG  1 
+Seq143                   (   28) TAAGGTTCTGATCCTTAACC  1 
+Seq412                   (   29) TATGTCATTAATTCCGCAGG  1 
+Seq180                   (   18) TAACGTATTGTGACTTAAGG  1 
+Seq112                   (   24) TATGTCTTTAATTATTCTCG  1 
+Seq154                   (   24) TAATCAGTTGTTCCAGTTCG  1 
+Seq91                    (   22) TAAAGAGATGATCCAGAAGA  1 
+Seq81                    (   27) GAACCACTTGTTTGCAAACG  1 
+Seq68                    (   24) TAACCTGTTGCATTAATTGC  1 
+Seq54                    (   11) CAACAACCTGAACGATCTGC  1 
+Seq425                   (   29) CAACCGCTTCCATATTCAGG  1 
+Seq310                   (   21) TAAAGTGATGACGGAAAAGC  1 
+Seq279                   (   20) TAACGGCATGTCTTTTTGGG  1 
+Seq49                    (   24) TAACCAACTGTCAAATAAGA  1 
+Seq329                   (   21) TAAGCACTTCATATTCAACG  1 
+Seq283                   (   21) GATCCTGTTGATCCGTATGC  1 
+Seq162                   (   31) CATCTCACTGTTCCTCAACG  1 
+Seq149                   (   23) TAAGCCCATGAGAAAGCAGA  1 
+Seq25                    (   17) TATGCGCTTGTTCCATTTGT  1 
+Seq492                   (   21) CAACATACTGACGTAACAGG  1 
+Seq382                   (   16) CAAACGCTTCATTAGCCTCG  1 
+Seq334                   (    9) TATCGGTTTGCAGCGGATGG  1 
+Seq321                   (   25) TAAATGCCTCATCATAAAGA  1 
+Seq207                   (   21) TAAGTGCTCGTTTCGACAGG  1 
+Seq103                   (   19) TATCTTCTTGCCCTGTTTCG  1 
+Seq513                   (   18) CAACCATCTGAAAGAACAGC  1 
+Seq113                   (   19) CAAAGAGTTGTATATCAAGG  1 
+Seq331                   (   15) TAAATATTTCATTTTTCACC  1 
+Seq227                   (   20) CATCTATCTGATCTGGTTGC  1 
+Seq221                   (   12) TAACTAGTTAATTAAAGTGG  1 
+Seq216                   (   29) TAACAGCCTATCCTATCAGG  1 
+Seq153                   (   22) TAACAAGCTGTATAAACTGA  1 
+Seq77                    (   25) TAAGTACATGTCTGTTATCT  1 
+Seq58                    (   21) CATCCGCATGTTTCTGAACA  1 
+Seq53                    (   23) CAACACCCTGACGCGTAAGT  1 
+Seq50                    (   39) CATCGCGATGTTGCTCATGA  1 
+Seq512                   (   36) CATCATGCTGACTGAAATGC  1 
+Seq483                   (   24) TATCCGATTATTTTTTAACG  1 
+Seq307                   (   18) CAACCTCTTCATTCTCTTCC  1 
+Seq280                   (   15) CAAGTTGTTATCGATAAAGG  1 
+Seq147                   (   23) TAAACGATTGACCTAACGGC  1 
+Seq26                    (   20) TAACTCCCTCTAAAATAACG  1 
+Seq8                     (   28) TATCTGGTTGAGACTGTTGA  1 
+Seq427                   (   25) TAAGCCGCTGGAAAGTCTGC  1 
+Seq378                   (   28) TAAAGGACTGATCGAAATCA  1 
+Seq157                   (   25) CATGTACTTCATCGGTAAGA  1 
+Seq92                    (   19) TAAGCTACCGATTGTGCTGG  1 
+Seq72                    (   19) TAAGGCCATGTTTAGCTTCC  1 
+Seq33                    (   24) TATCTCAATGCCTTATCAGA  1 
+Seq12                    (   21) CAAGTATATGATGGATAACA  1 
+Seq444                   (   23) TATTGGCCTGACTCACAAGC  1 
+Seq298                   (   24) TAAGTAATTGAGTGTTTTGT  1 
+Seq267                   (   22) TAAGTTCTTCAACAGCAAGC  1 
+Seq201                   (   24) TAACGCTATGATGTCCGTGG  1 
+Seq263                   (   19) TAACCGATTGAAGCGTTGGA  1 
+Seq140                   (   29) CAACTGTCTGCTGGGTATGT  1 
+Seq124                   (   25) TATATACATGATTACATAGC  1 
+Seq27                    (   23) CAAGTAATTGTTCAGATTGA  1 
+Seq408                   (   17) TAATTCTTTGCAGAATTTGG  1 
+Seq317                   (   18) TAATGTGGTGATTAATCTGG  1 
+Seq260                   (   14) TAACGCATTGGTGAAAATCA  1 
+Seq160                   (   21) GATGTCCTTGTTCGCTAAGA  1 
+Seq48                    (   22) TAAATTGCTGTGCGCCAACG  1 
+Seq45                    (   27) TAACCCCATGAGTGCAATAG  1 
+Seq13                    (   20) TAAGTTCATCTTTTGTCTCA  1 
+Seq453                   (   26) CAACGACATGTTTAACCTGT  1 
+Seq388                   (   20) TAAATCCTTAGCAGGTATGG  1 
+Seq387                   (   20) CAACTACTTCATTCTCCTCT  1 
+Seq308                   (   25) TAAACCATTGCTTTCCATCA  1 
+Seq273                   (   22) TATGTGTTTGGCGGCATTGG  1 
+Seq231                   (   28) TAATATGTTGTTGGAAAACG  1 
+Seq210                   (   19) CATACTTTTGAAGTGGCTGC  1 
+Seq136                   (   21) TAACTGCTTATCGCTCAGGC  1 
+Seq116                   (   22) TAAGTGTCTGGTCTTGTTGA  1 
+Seq5                     (   20) TAACTATATAAATTTGTTGG  1 
+Seq506                   (   21) TAAAACGTTGCAGACAAAGG  1 
+Seq188                   (   20) TAAACGTCTGAACTGTAAGT  1 
+Seq421                   (   18) TATGTCCTTGTTCGATAAAC  1 
+Seq390                   (    2) TATCTCACTATCCATTAACG  1 
+Seq284                   (    4) CAAGCGGTTAAGTACGCTCG  1 
+Seq259                   (   24) CATCTCTTTAATATGTTTGG  1 
+Seq198                   (   18) CAAACAGTTGTAAAAAAAGC  1 
+Seq148                   (   30) CAAATGGTTCTAAGTACTGG  1 
+Seq84                    (   26) CAAATCGATGCTTTCGTTGC  1 
+Seq477                   (   12) TATGTCTCTGGCGTAAAAGA  1 
+Seq386                   (   22) TATTTTCATGTCCGTACTGA  1 
+Seq336                   (   24) GAAATCGTTGATCCAGAAGT  1 
+Seq200                   (   20) TAAGTTACTCGTCTTACAGG  1 
+Seq138                   (   19) TATCTCGCTGGAAGAAAAGC  1 
+Seq129                   (   23) TATTGCTTTGTTATACAAGG  1 
+Seq319                   (    5) CAAGCCGCTGCCGTTCAGCG  1 
+Seq316                   (   21) TATCTTCATAATATGTCAGC  1 
+Seq158                   (   19) GAAGCCTTTGAACCTGTAGC  1 
+Seq122                   (   21) TAAGTAATTTTTTTGAAAGG  1 
+Seq507                   (   21) TATCCCCTTCATAGCCGAGG  1 
+Seq464                   (   23) TAATCAATTGATCTACTGGG  1 
+Seq196                   (   22) TAAGACCGTGTCTGCTAACG  1 
+Seq169                   (    5) TAATTTGCTCAGGGGTATGC  1 
+Seq39                    (   21) TAACCCTTTATATACACTCA  1 
+Seq7                     (   23) CATATATTTGATTTCTAAGT  1 
+Seq447                   (   13) TAACTTCCTGCTCTCTTTCT  1 
+Seq435                   (   30) TATGCTCTTTTTCGTGATGC  1 
+Seq288                   (   21) CAAGTGTTTGAAGCTTATAG  1 
+Seq285                   (   18) TAACCAGTTCAGATGAAACC  1 
+Seq239                   (   28) CATCCCTTTGTAAATAAGGG  1 
+Seq452                   (   18) TAAGCCGGCGATTAATCTGG  1 
+Seq438                   (   19) TAAGCCGCTATCGCGCGAGG  1 
+Seq380                   (   24) CAACGCCATGTTGTCGCTAG  1 
+Seq422                   (   41) TAACACCTTGCCACCACGGC  1 
+Seq420                   (   17) CAAACTGTTTACCCGACAGG  1 
+Seq312                   (   41) CATCACGTTCATGACAATGA  1 
+Seq292                   (   23) TAAGCCCATAATATTTTTCA  1 
+Seq242                   (   24) TAATATGTTGACTGCCTTCG  1 
+Seq215                   (   19) CATGTGCATGATGGATTGGA  1 
+Seq83                    (   27) CAAGCCTCTCATTCTCTTGT  1 
+Seq21                    (   23) TAAGCGGTTTATAACTCACG  1 
+Seq504                   (   13) TATGCAAATGGGGATTCAGG  1 
+Seq481                   (   36) CATGCGCCTCTGTTGTAACG  1 
+Seq318                   (   34) TATCTCGATATTTAAAAACA  1 
+Seq76                    (   18) TAATGATATGATTTCACACC  1 
+Seq414                   (   17) TAACAAGCTGGATCTGTACG  1 
+Seq276                   (   19) TAAAGTCCTGACAATACTCT  1 
+Seq235                   (   22) TAAGTCCGTCTCTGGACTCC  1 
+Seq134                   (   24) GAAGTCGTTGACGCCCTTCA  1 
+Seq325                   (   16) CATTCCTTTGCGTTTTCTCG  1 
+Seq264                   (   16) TAAGCGATCGTTGGCAATCG  1 
+Seq374                   (   32) TATCTTGTTAAATGCTCGGA  1 
+Seq248                   (   20) TAAGTGTCTATTTCATGAGC  1 
+Seq490                   (   19) TAAAGGATTGAGTTATCGCA  1 
+Seq519                   (   15) TAAGGTACTGTCTAAGAAAG  1 
+Seq406                   (   22) TAAAGACTTGTTCAATGGCG  1 
+Seq18                    (   21) TAATCTTTTGTATCCATTCA  1 
+Seq14                    (   31) GAACTTCTTATAACGTAAGG  1 
+Seq226                   (   18) TAAGCCACTGAGAGTGCCGG  1 
+Seq459                   (   25) CAACAAATTGAAGAATTACA  1 
+Seq439                   (   25) TAATGCATTGACTGATAATG  1 
+Seq479                   (   19) CAACGTCCTGAGCATTTGCA  1 
+Seq275                   (   33) TAAAGTCATTAAGAAAATGG  1 
+Seq219                   (   24) GATCGTGCTGAATCTCTACG  1 
+Seq30                    (   31) TAAGCGCATATTTTTTAATG  1 
+Seq434                   (   26) TAAGGTACTGGAAATGTTGA  1 
+//
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 3 position-specific scoring matrix
+--------------------------------------------------------------------------------
+log-odds matrix: alength= 4 w= 20 n= 21798 bayes= 6.46852 E= 1.2e-005 
+ -1424     24   -240    132 
+   183  -1424  -1424  -1424 
+   136  -1424  -1424     -1 
+   -47     95     40   -176 
+  -167     66    -32     47 
+   -27     62     -5    -37 
+   -72     64     35    -44 
+   -63     38   -308     85 
+ -1424   -340  -1424    180 
+  -117    -65    170   -344 
+    83   -101   -182     24 
+   -67     24   -101     70 
+  -100     -1     15     51 
+   -33     27     24    -15 
+     5    -36    -16     28 
+   -12    -60     -1     43 
+    62     64   -282    -51 
+    58   -540   -150     83 
+  -344     45    160   -476 
+   -47      2    121   -206 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 3 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 20 nsites= 193 E= 1.2e-005 
+ 0.000000  0.259067  0.041451  0.699482 
+ 1.000000  0.000000  0.000000  0.000000 
+ 0.720207  0.000000  0.000000  0.279793 
+ 0.202073  0.424870  0.290155  0.082902 
+ 0.088083  0.347150  0.176166  0.388601 
+ 0.233161  0.336788  0.212435  0.217617 
+ 0.170984  0.341969  0.279793  0.207254 
+ 0.181347  0.284974  0.025907  0.507772 
+ 0.000000  0.020725  0.000000  0.979275 
+ 0.124352  0.139896  0.709845  0.025907 
+ 0.497409  0.108808  0.062176  0.331606 
+ 0.176166  0.259067  0.108808  0.455959 
+ 0.139896  0.217617  0.243523  0.398964 
+ 0.222798  0.264249  0.259067  0.253886 
+ 0.290155  0.170984  0.196891  0.341969 
+ 0.259067  0.145078  0.217617  0.378238 
+ 0.430052  0.341969  0.031088  0.196891 
+ 0.419689  0.005181  0.077720  0.497409 
+ 0.025907  0.300518  0.663212  0.010363 
+ 0.202073  0.222798  0.507772  0.067358 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 3 regular expression
+--------------------------------------------------------------------------------
+[TC]A[AT][CGA][TC][CATG][CGT][TC]TG[AT][TC][TGC][CGTA][TA][TAG][AC][TA][GC][GCA]
+--------------------------------------------------------------------------------
+
+
+
+
+Time 127.78 secs.
+
+********************************************************************************
+
+
+********************************************************************************
+SUMMARY OF MOTIFS
+********************************************************************************
+
+--------------------------------------------------------------------------------
+	Combined block diagrams: non-overlapping sites with p-value < 0.0001
+--------------------------------------------------------------------------------
+SEQUENCE NAME            COMBINED P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+Seq1                             7.39e-02  61
+Seq2                             8.32e-03  20_[+3(9.23e-06)]_21
+Seq3                             9.91e-02  61
+Seq4                             8.76e-04  23_[+3(7.68e-06)]_18
+Seq5                             1.17e-01  61
+Seq6                             1.42e-03  13_[-3(1.81e-06)]_28
+Seq7                             1.77e-01  61
+Seq8                             1.37e-02  61
+Seq9                             2.21e-03  17_[-3(4.01e-05)]_24
+Seq10                            1.94e-01  61
+Seq11                            5.38e-07  16_[+1(1.36e-07)]_24
+Seq12                            9.99e-03  61
+Seq13                            1.03e-01  61
+Seq14                            3.34e-01  61
+Seq15                            6.18e-01  61
+Seq16                            2.61e-01  61
+Seq17                            6.41e-05  24_[+2(1.14e-06)]_16
+Seq18                            1.15e-01  61
+Seq19                            7.51e-01  61
+Seq20                            1.64e-01  61
+Seq21                            2.24e-01  61
+Seq22                            3.81e-01  61
+Seq23                            6.56e-02  61
+Seq24                            2.63e-05  14_[+1(4.92e-06)]_26
+Seq25                            6.75e-02  61
+Seq26                            2.65e-02  61
+Seq27                            1.55e-02  61
+Seq28                            1.17e-03  17_[-2(3.62e-06)]_23
+Seq29                            3.01e-03  18_[+3(4.64e-05)]_23
+Seq30                            2.03e-02  61
+Seq31                            1.27e-01  61
+Seq32                            3.78e-01  61
+Seq33                            1.03e-01  61
+Seq34                            4.38e-01  61
+Seq35                            1.48e-01  61
+Seq36                            4.92e-01  61
+Seq37                            2.59e-02  21_[-3(1.85e-05)]_20
+Seq38                            2.54e-01  61
+Seq39                            6.36e-03  61
+Seq40                            1.12e-01  61
+Seq41                            6.63e-01  61
+Seq42                            1.79e-04  26_[+3(2.26e-06)]_15
+Seq43                            1.76e-01  61
+Seq44                            1.80e-02  61
+Seq45                            4.90e-03  61
+Seq46                            9.17e-03  22_[-1(1.67e-05)]_18
+Seq47                            6.38e-01  61
+Seq48                            1.25e-01  61
+Seq49                            5.62e-03  23_[+3(9.12e-05)]_18
+Seq50                            4.21e-02  61
+Seq51                            3.65e-01  61
+Seq52                            9.91e-02  61
+Seq53                            1.67e-01  61
+Seq54                            1.75e-03  10_[-3(8.01e-05)]_31
+Seq55                            6.15e-03  23_[-3(2.55e-05)]_18
+Seq56                            4.39e-02  26_[+3(4.01e-05)]_15
+Seq57                            1.66e-01  61
+Seq58                            5.04e-03  61
+Seq59                            3.51e-01  61
+Seq60                            4.15e-06  22_[-2(1.10e-08)]_18
+Seq61                            2.44e-03  34_[+1(2.41e-05)]_6
+Seq62                            6.94e-01  61
+Seq63                            9.54e-01  61
+Seq64                            8.95e-05  29_[+1(7.16e-07)]_11
+Seq65                            1.55e-01  61
+Seq66                            4.98e-01  61
+Seq67                            3.67e-01  61
+Seq68                            1.81e-02  23_[+3(8.01e-05)]_18
+Seq69                            2.28e-03  19_[+3(1.56e-05)]_22
+Seq70                            4.81e-01  61
+Seq71                            1.77e-01  61
+Seq72                            2.76e-04  32_[+2(4.69e-05)]_8
+Seq73                            8.35e-01  61
+Seq74                            5.11e-01  61
+Seq75                            7.05e-01  61
+Seq76                            1.23e-01  61
+Seq77                            1.93e-02  61
+Seq78                            6.25e-01  61
+Seq79                            6.22e-04  24_[-1(1.13e-06)]_16
+Seq80                            2.38e-02  61
+Seq81                            1.03e-02  26_[+3(8.01e-05)]_15
+Seq82                            3.13e-01  61
+Seq83                            3.82e-01  61
+Seq84                            3.12e-03  61
+Seq85                            8.12e-01  61
+Seq86                            2.41e-02  61
+Seq87                            1.63e-02  61
+Seq88                            7.60e-01  61
+Seq89                            1.75e-03  15_[+3(9.23e-06)]_26
+Seq90                            3.46e-01  61
+Seq91                            2.12e-02  21_[-3(8.01e-05)]_20
+Seq92                            2.05e-01  61
+Seq93                            1.39e-04  4_[-1(1.30e-05)]_36
+Seq94                            3.93e-01  61
+Seq95                            2.13e-01  61
+Seq96                            6.17e-05  18_[+2(4.41e-07)]_22
+Seq97                            1.79e-02  61
+Seq98                            4.39e-02  17_[+3(4.01e-05)]_24
+Seq99                            1.05e-05  28_[-1(7.56e-08)]_12
+Seq100                           2.23e-01  61
+Seq101                           3.38e-06  16_[+1(2.36e-08)]_24
+Seq102                           3.77e-02  61
+Seq103                           1.21e-01  61
+Seq104                           4.56e-03  23_[-3(4.28e-06)]_18
+Seq105                           1.18e-02  20_[+3(1.32e-05)]_21
+Seq106                           2.21e-03  20_[-3(4.01e-05)]_21
+Seq107                           4.35e-02  61
+Seq108                           5.38e-01  61
+Seq109                           1.34e-01  61
+Seq110                           4.06e-04  30_[+2(4.22e-06)]_10
+Seq111                           1.25e-02  61
+Seq112                           3.26e-02  23_[+3(7.02e-05)]_18
+Seq113                           1.44e-03  61
+Seq114                           2.75e-01  61
+Seq115                           2.20e-05  11_[+1(2.65e-06)]_29
+Seq116                           4.32e-02  61
+Seq117                           5.37e-05  27_[-2(5.92e-07)]_13
+Seq118                           1.05e-05  30_[-1(7.56e-08)]_10
+Seq119                           2.93e-02  22_[-3(2.98e-05)]_19
+Seq120                           2.33e-02  37_[-1(5.74e-05)]_3
+Seq121                           1.05e-05  29_[-1(7.56e-08)]_11
+Seq122                           1.19e-01  61
+Seq123                           6.89e-01  61
+Seq124                           5.84e-02  61
+Seq125                           8.99e-05  7_[-2(3.02e-08)]_33
+Seq126                           4.86e-01  61
+Seq127                           2.11e-02  25_[-3(4.64e-05)]_16
+Seq128                           3.01e-01  61
+Seq129                           1.70e-02  61
+Seq130                           9.18e-01  61
+Seq131                           1.22e-03  14_[-2(1.04e-06)]_26
+Seq132                           3.60e-01  61
+Seq133                           9.60e-04  23_[+3(2.26e-06)]_18
+Seq134                           9.59e-02  61
+Seq135                           5.20e-01  61
+Seq136                           1.53e-01  61
+Seq137                           1.59e-03  21_[-2(1.14e-06)]_19
+Seq138                           1.43e-01  61
+Seq139                           4.40e-02  21_[-3(4.01e-05)]_20
+Seq140                           1.06e-01  61
+Seq141                           3.14e-01  61
+Seq142                           4.82e-01  61
+Seq143                           3.48e-02  27_[+3(5.34e-05)]_14
+Seq144                           1.18e-02  14_[+3(4.64e-05)]_27
+Seq145                           9.43e-01  61
+Seq146                           4.15e-01  61
+Seq147                           5.69e-02  61
+Seq148                           1.69e-01  61
+Seq149                           3.87e-02  61
+Seq150                           2.72e-07  19_[+1(4.75e-10)]_21
+Seq151                           1.08e-01  61
+Seq152                           4.36e-01  61
+Seq153                           1.50e-02  61
+Seq154                           1.94e-02  23_[-3(8.01e-05)]_18
+Seq155                           1.21e-01  61
+Seq156                           2.86e-01  61
+Seq157                           4.95e-03  61
+Seq158                           1.57e-01  61
+Seq159                           5.66e-01  61
+Seq160                           4.61e-02  61
+Seq161                           8.24e-02  61
+Seq162                           1.38e-02  61
+Seq163                           6.41e-04  4_[+2(2.47e-05)]_3_[+2(1.14e-06)]_\
+    12
+Seq164                           1.27e-02  23_[+3(4.01e-05)]_18
+Seq165                           7.00e-01  61
+Seq166                           1.28e-03  7_[-2(1.24e-06)]_33
+Seq167                           9.63e-01  61
+Seq168                           4.64e-01  61
+Seq169                           4.90e-02  61
+Seq170                           3.00e-02  18_[-3(1.85e-05)]_23
+Seq171                           4.67e-03  23_[+3(1.13e-06)]_18
+Seq172                           9.64e-01  61
+Seq173                           8.49e-05  28_[-1(9.62e-08)]_12
+Seq174                           4.65e-04  21_[+2(3.62e-06)]_19
+Seq175                           2.55e-03  23_[-3(5.34e-05)]_18
+Seq176                           1.83e-01  61
+Seq177                           7.08e-01  61
+Seq178                           9.18e-01  61
+Seq179                           2.34e-02  61
+Seq180                           2.95e-02  17_[-3(7.02e-05)]_24
+Seq181                           9.61e-01  61
+Seq182                           2.03e-01  61
+Seq183                           1.84e-01  61
+Seq184                           8.60e-02  61
+Seq185                           1.73e-01  61
+Seq186                           1.15e-01  61
+Seq187                           4.98e-01  61
+Seq188                           2.08e-01  61
+Seq189                           1.87e-01  61
+Seq190                           4.25e-01  61
+Seq191                           7.28e-01  61
+Seq192                           5.26e-05  23_[-1(1.04e-06)]_17
+Seq193                           1.54e-02  17_[-3(1.32e-05)]_24
+Seq194                           2.47e-01  61
+Seq195                           3.09e-02  61
+Seq196                           1.03e-01  61
+Seq197                           7.63e-01  61
+Seq198                           4.23e-03  61
+Seq199                           5.79e-01  61
+Seq200                           8.07e-02  61
+Seq201                           3.65e-02  61
+Seq202                           1.62e-01  61
+Seq203                           1.25e-02  22_[+3(1.85e-05)]_19
+Seq204                           4.95e-03  16_[-3(4.64e-05)]_25
+Seq205                           5.49e-01  61
+Seq206                           3.99e-03  18_[-3(1.56e-05)]_23
+Seq207                           1.30e-01  61
+Seq208                           1.40e-01  61
+Seq209                           2.84e-03  14_[-3(1.44e-06)]_27
+Seq210                           5.19e-02  61
+Seq211                           2.08e-02  61
+Seq212                           9.80e-02  61
+Seq213                           5.92e-01  61
+Seq214                           2.54e-04  29_[-1(1.36e-07)]_11
+Seq215                           1.21e-01  61
+Seq216                           1.30e-01  61
+Seq217                           4.93e-01  61
+Seq218                           5.46e-02  61
+Seq219                           4.31e-03  29_[-2(4.24e-05)]_11
+Seq220                           5.11e-02  3_[+2(7.90e-05)]_37
+Seq221                           3.39e-02  61
+Seq222                           4.28e-05  1_[-3(3.46e-05)]_19_[+1(2.44e-06)]
+Seq223                           6.88e-02  61
+Seq224                           3.00e-02  19_[+3(4.01e-05)]_22
+Seq225                           3.12e-02  61
+Seq226                           5.54e-01  61
+Seq227                           1.32e-01  61
+Seq228                           4.36e-04  15_[-3(9.23e-06)]_26
+Seq229                           2.51e-01  61
+Seq230                           2.77e-01  61
+Seq231                           1.64e-01  61
+Seq232                           5.73e-01  61
+Seq233                           1.26e-01  61
+Seq234                           1.33e-01  61
+Seq235                           4.00e-01  61
+Seq236                           6.63e-03  19_[-3(1.11e-05)]_22
+Seq237                           1.00e+00  61
+Seq238                           4.54e-01  61
+Seq239                           1.12e-01  61
+Seq240                           1.02e-03  22_[-2(3.10e-06)]_18
+Seq241                           4.57e-01  61
+Seq242                           3.91e-01  61
+Seq243                           4.19e-04  23_[+3(8.84e-07)]_18
+Seq244                           1.60e-02  17_[+3(1.85e-05)]_24
+Seq245                           2.00e-01  61
+Seq246                           2.55e-02  61
+Seq247                           1.73e-01  61
+Seq248                           1.66e-01  61
+Seq249                           2.01e-03  1_[-2(2.87e-06)]_39
+Seq250                           9.62e-01  61
+Seq251                           2.06e-04  6_[+1(3.93e-06)]_34
+Seq252                           9.90e-02  61
+Seq253                           6.73e-03  25_[+3(3.46e-05)]_16
+Seq254                           4.40e-01  61
+Seq255                           2.58e-01  61
+Seq256                           6.15e-01  61
+Seq257                           5.11e-01  61
+Seq258                           1.06e-02  22_[-3(1.32e-05)]_19
+Seq259                           1.19e-01  61
+Seq260                           5.97e-02  61
+Seq261                           9.99e-01  61
+Seq262                           5.81e-01  61
+Seq263                           1.93e-01  61
+Seq264                           1.06e-01  61
+Seq265                           4.46e-01  61
+Seq266                           5.15e-01  61
+Seq267                           1.04e-01  61
+Seq268                           2.25e-03  5_[-3(2.98e-05)]_36
+Seq269                           4.36e-05  20_[+1(1.75e-06)]_20
+Seq270                           5.59e-01  61
+Seq271                           1.79e-01  61
+Seq272                           1.62e-02  61
+Seq273                           6.38e-03  61
+Seq274                           4.53e-01  61
+Seq275                           4.73e-03  61
+Seq276                           6.67e-02  61
+Seq277                           5.99e-01  61
+Seq278                           1.41e-01  61
+Seq279                           7.76e-02  19_[-3(9.12e-05)]_22
+Seq280                           5.55e-03  61
+Seq281                           1.75e-02  22_[+3(1.11e-05)]_19
+Seq282                           1.11e-03  31_[+2(6.08e-06)]_9
+Seq283                           8.15e-02  61
+Seq284                           1.74e-01  61
+Seq285                           2.29e-01  61
+Seq286                           4.20e-01  61
+Seq287                           7.65e-01  61
+Seq288                           6.59e-02  61
+Seq289                           2.70e-01  61
+Seq290                           7.36e-01  61
+Seq291                           1.90e-01  61
+Seq292                           2.68e-01  61
+Seq293                           2.07e-05  17_[+1(7.07e-06)]_23
+Seq294                           7.10e-01  61
+Seq295                           1.48e-01  61
+Seq296                           6.06e-01  61
+Seq297                           2.65e-02  61
+Seq298                           5.05e-02  61
+Seq299                           2.95e-01  61
+Seq300                           4.56e-01  61
+Seq301                           2.61e-01  61
+Seq302                           1.43e-01  61
+Seq303                           6.97e-03  24_[-2(8.04e-06)]_16
+Seq304                           7.17e-04  16_[-2(2.65e-06)]_24
+Seq305                           4.33e-01  61
+Seq306                           2.94e-01  61
+Seq307                           8.56e-02  61
+Seq308                           1.19e-01  61
+Seq309                           3.95e-01  61
+Seq310                           3.66e-02  20_[+3(9.12e-05)]_21
+Seq311                           5.84e-02  61
+Seq312                           1.25e-04  12_[+1(5.70e-06)]_28
+Seq313                           3.72e-01  61
+Seq314                           1.11e-01  61
+Seq315                           1.10e-03  14_[+3(1.32e-05)]_27
+Seq316                           1.44e-01  61
+Seq317                           9.31e-02  61
+Seq318                           7.78e-03  61
+Seq319                           2.44e-01  61
+Seq320                           1.79e-02  33_[-2(4.69e-05)]_7
+Seq321                           5.66e-04  16_[+1(3.39e-05)]_24
+Seq322                           9.08e-01  61
+Seq323                           7.46e-01  61
+Seq324                           8.97e-01  61
+Seq325                           1.66e-02  61
+Seq326                           7.65e-02  61
+Seq327                           4.96e-01  61
+Seq328                           4.65e-01  61
+Seq329                           1.27e-01  61
+Seq330                           7.43e-01  61
+Seq331                           2.04e-02  61
+Seq332                           2.00e-07  40_[+2(8.91e-11)]
+Seq333                           6.61e-01  61
+Seq334                           8.84e-03  61
+Seq335                           3.84e-03  29_[-1(3.78e-05)]_11
+Seq336                           4.34e-02  61
+Seq337                           1.98e-01  61
+Seq338                           4.55e-01  61
+Seq339                           4.02e-01  61
+Seq340                           1.50e-04  7_[+1(1.13e-06)]_33
+Seq341                           1.28e-04  4_[-2(4.87e-07)]_36
+Seq342                           1.49e-01  61
+Seq343                           4.85e-01  61
+Seq344                           6.21e-01  61
+Seq345                           6.45e-01  61
+Seq346                           1.62e-04  15_[-1(5.91e-08)]_25
+Seq347                           6.08e-01  61
+Seq348                           5.98e-01  61
+Seq349                           4.18e-01  61
+Seq350                           2.98e-03  35_[-2(1.75e-06)]_5
+Seq351                           1.06e-03  9_[+3(9.23e-06)]_32
+Seq352                           4.97e-02  61
+Seq353                           6.81e-02  61
+Seq354                           8.83e-02  61
+Seq355                           5.55e-01  61
+Seq356                           7.26e-01  61
+Seq357                           1.75e-01  61
+Seq358                           6.09e-01  61
+Seq359                           1.64e-04  27_[+2(2.07e-06)]_13
+Seq360                           1.05e-02  23_[+3(4.28e-06)]_18
+Seq361                           2.00e-07  38_[+2(8.91e-11)]_2
+Seq362                           3.69e-01  61
+Seq363                           7.20e-01  61
+Seq364                           4.72e-01  61
+Seq365                           7.82e-01  61
+Seq366                           6.44e-01  61
+Seq367                           2.01e-01  61
+Seq368                           1.82e-02  61
+Seq369                           2.06e-03  20_[-3(5.22e-06)]_21
+Seq370                           9.93e-01  61
+Seq371                           1.17e-01  61
+Seq372                           1.51e-01  61
+Seq373                           6.17e-05  34_[-2(8.65e-07)]_6
+Seq374                           1.02e-05  4_[-2(8.65e-07)]_36
+Seq375                           5.81e-01  61
+Seq376                           6.05e-01  61
+Seq377                           3.65e-01  61
+Seq378                           5.08e-02  61
+Seq379                           4.09e-01  61
+Seq380                           5.10e-02  61
+Seq381                           1.93e-01  61
+Seq382                           9.23e-02  61
+Seq383                           1.29e-03  26_[-1(1.24e-06)]_14
+Seq384                           3.23e-01  61
+Seq385                           4.09e-01  61
+Seq386                           9.05e-03  61
+Seq387                           9.52e-02  61
+Seq388                           3.11e-02  61
+Seq389                           7.04e-01  61
+Seq390                           4.99e-02  61
+Seq391                           7.48e-02  61
+Seq392                           2.80e-05  23_[-1(1.36e-07)]_17
+Seq393                           1.82e-02  22_[-3(7.68e-06)]_19
+Seq394                           3.15e-01  61
+Seq395                           9.25e-01  61
+Seq396                           3.37e-01  61
+Seq397                           4.34e-01  61
+Seq398                           7.93e-01  61
+Seq399                           6.91e-01  61
+Seq400                           4.65e-01  61
+Seq401                           7.96e-01  61
+Seq402                           2.27e-01  61
+Seq403                           2.26e-02  33_[+3(3.46e-05)]_8
+Seq404                           2.96e-02  23_[+3(1.32e-05)]_18
+Seq405                           1.05e-01  61
+Seq406                           3.66e-02  61
+Seq407                           1.26e-01  61
+Seq408                           1.77e-01  61
+Seq409                           1.42e-01  61
+Seq410                           1.84e-01  61
+Seq411                           1.54e-01  61
+Seq412                           4.76e-02  28_[-3(6.13e-05)]_13
+Seq413                           9.62e-01  61
+Seq414                           1.28e-02  61
+Seq415                           1.00e-03  16_[-2(1.75e-06)]_24
+Seq416                           3.15e-02  17_[+3(4.01e-05)]_24
+Seq417                           6.87e-01  61
+Seq418                           9.51e-03  21_[+3(1.85e-05)]_20
+Seq419                           8.85e-04  8_[+3(1.11e-05)]_33
+Seq420                           7.37e-02  61
+Seq421                           1.33e-04  29_[+2(7.22e-05)]_11
+Seq422                           2.97e-01  61
+Seq423                           3.15e-01  61
+Seq424                           1.64e-01  61
+Seq425                           1.25e-01  28_[+3(9.12e-05)]_13
+Seq426                           2.48e-01  61
+Seq427                           1.75e-01  61
+Seq428                           6.87e-01  61
+Seq429                           3.56e-04  24_[-1(1.24e-06)]_16
+Seq430                           7.52e-02  61
+Seq431                           2.00e-07  39_[+2(8.91e-11)]_1
+Seq432                           2.40e-01  61
+Seq433                           2.56e-01  61
+Seq434                           5.74e-01  61
+Seq435                           2.11e-04  2_[+1(2.65e-06)]_38
+Seq436                           4.06e-01  61
+Seq437                           5.82e-01  61
+Seq438                           5.44e-02  61
+Seq439                           1.75e-02  61
+Seq440                           2.77e-01  61
+Seq441                           2.40e-01  61
+Seq442                           5.58e-01  61
+Seq443                           9.89e-01  61
+Seq444                           2.78e-02  61
+Seq445                           3.56e-01  61
+Seq446                           5.38e-02  61
+Seq447                           2.12e-01  61
+Seq448                           6.35e-02  19_[-3(4.64e-05)]_22
+Seq449                           5.98e-02  61
+Seq450                           7.74e-01  61
+Seq451                           3.41e-01  61
+Seq452                           2.04e-01  61
+Seq453                           1.14e-01  61
+Seq454                           4.09e-01  61
+Seq455                           1.14e-03  20_[-1(2.25e-06)]_20
+Seq456                           6.25e-02  61
+Seq457                           1.01e-01  61
+Seq458                           3.52e-01  61
+Seq459                           6.63e-02  61
+Seq460                           5.08e-06  26_[-1(1.53e-07)]_14
+Seq461                           2.68e-01  61
+Seq462                           6.42e-02  61
+Seq463                           4.37e-01  61
+Seq464                           4.50e-02  61
+Seq465                           3.01e-01  61
+Seq466                           3.46e-01  61
+Seq467                           6.96e-02  61
+Seq468                           6.82e-01  61
+Seq469                           7.61e-02  61
+Seq470                           6.93e-01  61
+Seq471                           3.62e-01  61
+Seq472                           5.89e-01  61
+Seq473                           3.50e-02  61
+Seq474                           7.29e-01  61
+Seq475                           5.19e-01  61
+Seq476                           7.00e-01  61
+Seq477                           1.54e-03  61
+Seq478                           2.99e-01  61
+Seq479                           3.07e-01  61
+Seq480                           2.05e-01  61
+Seq481                           1.81e-02  61
+Seq482                           1.58e-01  61
+Seq483                           1.15e-01  61
+Seq484                           3.14e-01  61
+Seq485                           1.73e-01  61
+Seq486                           3.81e-01  61
+Seq487                           2.32e-01  61
+Seq488                           8.01e-01  61
+Seq489                           2.53e-03  19_[+2(7.50e-06)]_21
+Seq490                           9.23e-02  61
+Seq491                           4.91e-01  61
+Seq492                           5.90e-02  61
+Seq493                           4.88e-01  61
+Seq494                           2.19e-01  61
+Seq495                           4.68e-01  61
+Seq496                           9.80e-01  61
+Seq497                           3.82e-03  20_[+3(6.35e-06)]_21
+Seq498                           4.54e-01  61
+Seq499                           1.98e-01  61
+Seq500                           4.60e-02  61
+Seq501                           2.12e-02  22_[-3(9.23e-06)]_19
+Seq502                           1.13e-01  61
+Seq503                           2.96e-03  26_[+3(4.64e-05)]_15
+Seq504                           3.42e-02  61
+Seq505                           2.14e-01  61
+Seq506                           1.85e-01  61
+Seq507                           1.16e-01  61
+Seq508                           5.97e-04  34_[+2(2.25e-06)]_6
+Seq509                           8.14e-02  61
+Seq510                           1.82e-01  61
+Seq511                           5.81e-01  61
+Seq512                           8.39e-03  61
+Seq513                           1.00e-01  61
+Seq514                           2.77e-01  61
+Seq515                           8.08e-01  61
+Seq516                           6.87e-01  61
+Seq517                           1.59e-01  61
+Seq518                           3.80e-03  28_[-1(3.78e-05)]_12
+Seq519                           1.65e-02  61
+--------------------------------------------------------------------------------
+
+********************************************************************************
+
+
+********************************************************************************
+Stopped because requested number of motifs (3) found.
+********************************************************************************
+
+CPU: JAVAIDs-MacBook-Air.local
+
+********************************************************************************
