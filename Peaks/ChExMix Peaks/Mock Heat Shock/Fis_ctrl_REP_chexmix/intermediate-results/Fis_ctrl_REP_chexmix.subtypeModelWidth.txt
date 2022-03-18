@@ -1,0 +1,5 @@
+#Subtype model width (i.e. peak width): reporting 90% probability interval distance in a model
+
+#Condition: SAMPLE
+Group	Subtype0(n=2308)	Subtype1(n=246)	Subtype2(n=181)	Subtype3(n=38)	Subtype4(n=1257)	Subtype5(n=302)	average
+ModelRange(bp)	218	222	221	227	224	133	214
