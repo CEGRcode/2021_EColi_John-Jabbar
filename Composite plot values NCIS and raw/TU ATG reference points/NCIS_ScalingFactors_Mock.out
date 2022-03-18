@@ -1,0 +1,48 @@
+Sample file:	/Users/javaid/BAM files Ecoli/Mock Heat Shock/Fis_30˚C_RepMerge.bam
+Control file:	/Users/javaid/BAM files Ecoli/Mock Heat Shock/MglB_30˚C_RepMerge.bam
+Scaling type:	NCIS
+Window size (bp):	500
+Minimum fraction:	0.75
+Scaling factor:	1.0226409054326069
+Sample file:	/Users/javaid/BAM files Ecoli/Mock Heat Shock/HimD_30˚C_RepMerge.bam
+Control file:	/Users/javaid/BAM files Ecoli/Mock Heat Shock/MglB_30˚C_RepMerge.bam
+Scaling type:	NCIS
+Window size (bp):	500
+Minimum fraction:	0.75
+Scaling factor:	1.255310164968704
+Sample file:	/Users/javaid/BAM files Ecoli/Mock Heat Shock/RpoA_30˚C_RepMerge.bam
+Control file:	/Users/javaid/BAM files Ecoli/Mock Heat Shock/MglB_30˚C_RepMerge.bam
+Scaling type:	NCIS
+Window size (bp):	500
+Minimum fraction:	0.75
+Scaling factor:	1.742918516588327
+Sample file:	/Users/javaid/BAM files Ecoli/Mock Heat Shock/RpoB_30˚C_RepMerge.bam
+Control file:	/Users/javaid/BAM files Ecoli/Mock Heat Shock/MglB_30˚C_RepMerge.bam
+Scaling type:	NCIS
+Window size (bp):	500
+Minimum fraction:	0.75
+Scaling factor:	1.1509793650782119
+Sample file:	/Users/javaid/BAM files Ecoli/Mock Heat Shock/RpoC_30˚C_RepMerge.bam
+Control file:	/Users/javaid/BAM files Ecoli/Mock Heat Shock/MglB_30˚C_RepMerge.bam
+Scaling type:	NCIS
+Window size (bp):	500
+Minimum fraction:	0.75
+Scaling factor:	2.970069289167044
+Sample file:	/Users/javaid/BAM files Ecoli/Mock Heat Shock/RpoD_30˚C_RepMerge.bam
+Control file:	/Users/javaid/BAM files Ecoli/Mock Heat Shock/MglB_30˚C_RepMerge.bam
+Scaling type:	NCIS
+Window size (bp):	500
+Minimum fraction:	0.75
+Scaling factor:	1.6625615018246296
+Sample file:	/Users/javaid/BAM files Ecoli/Mock Heat Shock/RpoH_30˚C_RepMerge.bam
+Control file:	/Users/javaid/BAM files Ecoli/Mock Heat Shock/MglB_30˚C_RepMerge.bam
+Scaling type:	NCIS
+Window size (bp):	500
+Minimum fraction:	0.75
+Scaling factor:	0.949283731400325
+Sample file:	/Users/javaid/BAM files Ecoli/Mock Heat Shock/RpoN_30˚C_RepMerge.bam
+Control file:	/Users/javaid/BAM files Ecoli/Mock Heat Shock/MglB_30˚C_RepMerge.bam
+Scaling type:	NCIS
+Window size (bp):	500
+Minimum fraction:	0.75
+Scaling factor:	5.5498932470309885
