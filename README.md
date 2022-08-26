@@ -11,10 +11,12 @@
 
 <sup>4</sup>Corresponding author
 
-Correspondence: fp265@cornell.edu
-
 <sup>*</sup>Equal contribution
 
+### Correspondence: fp265@cornell.edu
+
+### PMID : [35483960](https://pubmed.ncbi.nlm.nih.gov/35483960/)
+### GEO ID : [GSE189206](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE189206)
 
 ## Abstract
 When detected at single bp resolution, the genome-wide location, occupancy level, and structural organization of DNA-binding proteins provide mechanistic insights into genome regulation. Here we use ChIP-exo to provide a near-bp resolution view of the epigenomic organization of the *E. coli* transcription machinery and nucleoid structural proteins when cells are growing exponentially and upon rapid reprogramming (acute heat shock). We examined the site specificity of three sigma factors (RpoD/sigma70, RpoH/sigma32, and RpoN/sigma54), RNA polymerase (RNAP or RpoA, B, C) and two nucleoid proteins (Fis and IHF). We suggest that DNA shape at the flanks of cognate motifs help drive site specificity. We find that while RNAP and sigma factors occupy active cognate promoters, RpoH and RpoN can occupy quiescent promoters without the presence of RNAP. Thus, promoter-bound sigma factors can be triggered to recruit RNAP by a mechanism that is distinct from an obligatory cycle of free sigma binding RNAP followed by promoter binding. These findings add new dimensions to how sigma factors achieve promoter specificity through DNA sequence and shape and further define mechanistic steps in regulated genome-wide assembly of RNAP at promoters in *E. coli*.
